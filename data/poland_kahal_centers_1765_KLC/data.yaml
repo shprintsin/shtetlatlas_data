@@ -1,0 +1,12 @@
+slug: poland-kahal-centers-1765-klc
+title: "מרכזי קהילות יהודיות בכתר הפולני - מפקד 1765 (KLC)"
+description: ''
+maturity: Provisional
+version: '1.0.0'
+minYear: 1765
+maxYear: 1765
+resources:
+  - file: Kahals_centers_1765_Polland_v1_KLC.csv
+    name: Poland Kahal Centers 1765 (KLC)
+    format: CSV
+    isMainFile: true

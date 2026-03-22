@@ -1,0 +1,12 @@
+slug: poland-kahals-surroundings-1765
+title: "סביבות קהילות יהודיות בכתר הפולני - מפקד 1765"
+description: ''
+maturity: Provisional
+version: '1.0.0'
+minYear: 1765
+maxYear: 1765
+resources:
+  - file: Kahal_surroundings_1765_V1.csv
+    name: Kahal Surroundings 1765
+    format: CSV
+    isMainFile: true

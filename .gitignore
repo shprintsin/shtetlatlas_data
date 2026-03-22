@@ -1,5 +1,7 @@
 node_modules/
 .mapstudio/
 _tools/
-dist/
 *.log
+
+# Allow lib/shared/dist (bundled @kahal/shared)
+!lib/shared/dist/

@@ -1,0 +1,243 @@
+import { z } from 'zod';
+export declare const MinimalDataResourceSchema: z.ZodObject<{
+    file: z.ZodString;
+    name: z.ZodOptional<z.ZodString>;
+    format: z.ZodOptional<z.ZodEnum<["XLSX", "CSV", "JSON", "PDF", "HTML", "DOCX", "ZIP", "TXT", "XLS", "PNG", "JPG", "TIFF", "URL", "UNKNOWN"]>>;
+    isMainFile: z.ZodDefault<z.ZodBoolean>;
+    excerpt: z.ZodOptional<z.ZodString>;
+}, "strip", z.ZodTypeAny, {
+    file: string;
+    isMainFile: boolean;
+    name?: string | undefined;
+    format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+    excerpt?: string | undefined;
+}, {
+    file: string;
+    name?: string | undefined;
+    format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+    isMainFile?: boolean | undefined;
+    excerpt?: string | undefined;
+}>;
+export type MinimalDataResource = z.infer<typeof MinimalDataResourceSchema>;
+export declare const MinimalDataYamlSchema: z.ZodObject<{
+    slug: z.ZodString;
+    title: z.ZodString;
+    description: z.ZodDefault<z.ZodString>;
+    maturity: z.ZodDefault<z.ZodEnum<["Raw", "Preliminary", "Provisional", "Validated"]>>;
+    version: z.ZodDefault<z.ZodString>;
+    license: z.ZodOptional<z.ZodString>;
+    citationText: z.ZodOptional<z.ZodString>;
+    minYear: z.ZodOptional<z.ZodNumber>;
+    maxYear: z.ZodOptional<z.ZodNumber>;
+    category: z.ZodOptional<z.ZodString>;
+    regions: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
+    resources: z.ZodDefault<z.ZodArray<z.ZodObject<{
+        file: z.ZodString;
+        name: z.ZodOptional<z.ZodString>;
+        format: z.ZodOptional<z.ZodEnum<["XLSX", "CSV", "JSON", "PDF", "HTML", "DOCX", "ZIP", "TXT", "XLS", "PNG", "JPG", "TIFF", "URL", "UNKNOWN"]>>;
+        isMainFile: z.ZodDefault<z.ZodBoolean>;
+        excerpt: z.ZodOptional<z.ZodString>;
+    }, "strip", z.ZodTypeAny, {
+        file: string;
+        isMainFile: boolean;
+        name?: string | undefined;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        excerpt?: string | undefined;
+    }, {
+        file: string;
+        name?: string | undefined;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        isMainFile?: boolean | undefined;
+        excerpt?: string | undefined;
+    }>, "many">>;
+}, "strip", z.ZodTypeAny, {
+    slug: string;
+    title: string;
+    description: string;
+    regions: string[];
+    maturity: "Provisional" | "Raw" | "Preliminary" | "Validated";
+    version: string;
+    resources: {
+        file: string;
+        isMainFile: boolean;
+        name?: string | undefined;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        excerpt?: string | undefined;
+    }[];
+    category?: string | undefined;
+    license?: string | undefined;
+    citationText?: string | undefined;
+    minYear?: number | undefined;
+    maxYear?: number | undefined;
+}, {
+    slug: string;
+    title: string;
+    category?: string | undefined;
+    description?: string | undefined;
+    regions?: string[] | undefined;
+    maturity?: "Provisional" | "Raw" | "Preliminary" | "Validated" | undefined;
+    license?: string | undefined;
+    version?: string | undefined;
+    citationText?: string | undefined;
+    minYear?: number | undefined;
+    maxYear?: number | undefined;
+    resources?: {
+        file: string;
+        name?: string | undefined;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        isMainFile?: boolean | undefined;
+        excerpt?: string | undefined;
+    }[] | undefined;
+}>;
+export type MinimalDataYaml = z.infer<typeof MinimalDataYamlSchema>;
+export declare const DatasetResourceInputSchema: z.ZodObject<{
+    name: z.ZodString;
+    slug: z.ZodString;
+    url: z.ZodString;
+    filename: z.ZodOptional<z.ZodString>;
+    mimeType: z.ZodOptional<z.ZodString>;
+    format: z.ZodDefault<z.ZodEnum<["XLSX", "CSV", "JSON", "PDF", "HTML", "DOCX", "ZIP", "TXT", "XLS", "PNG", "JPG", "TIFF", "URL", "UNKNOWN"]>>;
+    sizeBytes: z.ZodOptional<z.ZodNumber>;
+    isMainFile: z.ZodDefault<z.ZodBoolean>;
+    excerptI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+}, "strip", z.ZodTypeAny, {
+    url: string;
+    slug: string;
+    name: string;
+    format: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN";
+    isMainFile: boolean;
+    filename?: string | undefined;
+    mimeType?: string | undefined;
+    sizeBytes?: number | undefined;
+    excerptI18n?: Record<string, string> | undefined;
+}, {
+    url: string;
+    slug: string;
+    name: string;
+    format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+    isMainFile?: boolean | undefined;
+    filename?: string | undefined;
+    mimeType?: string | undefined;
+    sizeBytes?: number | undefined;
+    excerptI18n?: Record<string, string> | undefined;
+}>;
+export type DatasetResourceInput = z.infer<typeof DatasetResourceInputSchema>;
+export declare const DatasetInputSchema: z.ZodObject<{
+    slug: z.ZodString;
+    title: z.ZodString;
+    description: z.ZodDefault<z.ZodString>;
+    status: z.ZodDefault<z.ZodEnum<["draft", "published", "archived"]>>;
+    maturity: z.ZodDefault<z.ZodEnum<["Raw", "Preliminary", "Provisional", "Validated"]>>;
+    version: z.ZodDefault<z.ZodString>;
+    license: z.ZodOptional<z.ZodNullable<z.ZodString>>;
+    citationText: z.ZodOptional<z.ZodNullable<z.ZodString>>;
+    minYear: z.ZodOptional<z.ZodNullable<z.ZodNumber>>;
+    maxYear: z.ZodOptional<z.ZodNullable<z.ZodNumber>>;
+    isVisible: z.ZodDefault<z.ZodBoolean>;
+    categorySlug: z.ZodOptional<z.ZodString>;
+    regionSlugs: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
+    titleI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    descriptionI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    codebookTextI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    sourcesI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    thumbnailId: z.ZodOptional<z.ZodString>;
+    resources: z.ZodDefault<z.ZodArray<z.ZodObject<{
+        name: z.ZodString;
+        slug: z.ZodString;
+        url: z.ZodString;
+        filename: z.ZodOptional<z.ZodString>;
+        mimeType: z.ZodOptional<z.ZodString>;
+        format: z.ZodDefault<z.ZodEnum<["XLSX", "CSV", "JSON", "PDF", "HTML", "DOCX", "ZIP", "TXT", "XLS", "PNG", "JPG", "TIFF", "URL", "UNKNOWN"]>>;
+        sizeBytes: z.ZodOptional<z.ZodNumber>;
+        isMainFile: z.ZodDefault<z.ZodBoolean>;
+        excerptI18n: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    }, "strip", z.ZodTypeAny, {
+        url: string;
+        slug: string;
+        name: string;
+        format: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN";
+        isMainFile: boolean;
+        filename?: string | undefined;
+        mimeType?: string | undefined;
+        sizeBytes?: number | undefined;
+        excerptI18n?: Record<string, string> | undefined;
+    }, {
+        url: string;
+        slug: string;
+        name: string;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        isMainFile?: boolean | undefined;
+        filename?: string | undefined;
+        mimeType?: string | undefined;
+        sizeBytes?: number | undefined;
+        excerptI18n?: Record<string, string> | undefined;
+    }>, "many">>;
+    gitSha: z.ZodOptional<z.ZodString>;
+    cliVersion: z.ZodOptional<z.ZodString>;
+}, "strip", z.ZodTypeAny, {
+    status: "draft" | "published" | "archived";
+    slug: string;
+    title: string;
+    description: string;
+    maturity: "Provisional" | "Raw" | "Preliminary" | "Validated";
+    version: string;
+    resources: {
+        url: string;
+        slug: string;
+        name: string;
+        format: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN";
+        isMainFile: boolean;
+        filename?: string | undefined;
+        mimeType?: string | undefined;
+        sizeBytes?: number | undefined;
+        excerptI18n?: Record<string, string> | undefined;
+    }[];
+    isVisible: boolean;
+    regionSlugs: string[];
+    license?: string | null | undefined;
+    gitSha?: string | undefined;
+    cliVersion?: string | undefined;
+    citationText?: string | null | undefined;
+    minYear?: number | null | undefined;
+    maxYear?: number | null | undefined;
+    categorySlug?: string | undefined;
+    titleI18n?: Record<string, string> | undefined;
+    descriptionI18n?: Record<string, string> | undefined;
+    codebookTextI18n?: Record<string, string> | undefined;
+    sourcesI18n?: Record<string, string> | undefined;
+    thumbnailId?: string | undefined;
+}, {
+    slug: string;
+    title: string;
+    status?: "draft" | "published" | "archived" | undefined;
+    description?: string | undefined;
+    maturity?: "Provisional" | "Raw" | "Preliminary" | "Validated" | undefined;
+    license?: string | null | undefined;
+    gitSha?: string | undefined;
+    cliVersion?: string | undefined;
+    version?: string | undefined;
+    citationText?: string | null | undefined;
+    minYear?: number | null | undefined;
+    maxYear?: number | null | undefined;
+    resources?: {
+        url: string;
+        slug: string;
+        name: string;
+        format?: "XLSX" | "CSV" | "JSON" | "PDF" | "HTML" | "DOCX" | "ZIP" | "TXT" | "XLS" | "PNG" | "JPG" | "TIFF" | "URL" | "UNKNOWN" | undefined;
+        isMainFile?: boolean | undefined;
+        filename?: string | undefined;
+        mimeType?: string | undefined;
+        sizeBytes?: number | undefined;
+        excerptI18n?: Record<string, string> | undefined;
+    }[] | undefined;
+    isVisible?: boolean | undefined;
+    categorySlug?: string | undefined;
+    regionSlugs?: string[] | undefined;
+    titleI18n?: Record<string, string> | undefined;
+    descriptionI18n?: Record<string, string> | undefined;
+    codebookTextI18n?: Record<string, string> | undefined;
+    sourcesI18n?: Record<string, string> | undefined;
+    thumbnailId?: string | undefined;
+}>;
+export type DatasetInput = z.infer<typeof DatasetInputSchema>;
+//# sourceMappingURL=data-input.d.ts.map

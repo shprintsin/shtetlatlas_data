@@ -1,0 +1,101 @@
+name: Deploy Data
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/**']
+  workflow_dispatch:
+    inputs:
+      data_project:
+        description: 'Data folder to deploy (e.g., brc). Leave empty to auto-detect from commit.'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  # ── Detect which data projects changed ──────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      data: ${{ steps.detect.outputs.data }}
+      any: ${{ steps.detect.outputs.any }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed data projects
+        id: detect
+        run: |
+          if [ -n "${{ inputs.data_project }}" ]; then
+            # Manual dispatch — deploy specific data
+            DATA='["${{ inputs.data_project }}"]'
+          else
+            # Auto-detect from git diff
+            BASE="${{ github.event.before }}"
+            if [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+              # First push or force-push — deploy all data
+              DATA=$(ls -d data/*/ 2>/dev/null \
+                | sed 's|data/||;s|/||' \
+                | jq -R -s -c 'split("\n") | map(select(. != ""))')
+            else
+              DATA=$(git diff --name-only "$BASE" HEAD -- 'data/' \
+                | sed 's|^data/||' | cut -d'/' -f1 | sort -u \
+                | jq -R -s -c 'split("\n") | map(select(. != ""))')
+            fi
+          fi
+
+          echo "data=$DATA" >> "$GITHUB_OUTPUT"
+          if [ "$DATA" = "[]" ] || [ "$DATA" = '[""]' ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+            echo "No changed data detected"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+            echo "Changed data: $DATA"
+          fi
+
+  # ── Validate + Deploy each changed data project ─────────────────────
+  deploy:
+    needs: detect
+    if: needs.detect.outputs.any == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: deploy-${{ matrix.data }}
+      cancel-in-progress: false
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        data: ${{ fromJson(needs.detect.outputs.data) }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af  # v4.1.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate "${{ matrix.data }}"
+        run: npx tsx scripts/validate-data.ts "data/${{ matrix.data }}"
+
+      - name: Deploy "${{ matrix.data }}"
+        env:
+          MAPSTUDIO_API_KEY: ${{ secrets.MAPSTUDIO_API_KEY }}
+          MAPSTUDIO_API_URL: ${{ secrets.MAPSTUDIO_API_URL }}
+        run: npx tsx scripts/deploy-data.ts "data/${{ matrix.data }}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Deploy: ${{ matrix.data }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Status:** ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Commit:** \`${{ github.sha }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Triggered by:** ${{ github.actor }}" >> "$GITHUB_STEP_SUMMARY"

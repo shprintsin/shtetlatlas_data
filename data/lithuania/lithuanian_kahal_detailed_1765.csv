@@ -1,0 +1,2054 @@
+﻿volume,kahal_name,settlement_name,settlement_type,pop
+1,Kieydany,Lawmianka,karczma,8
+1,Kieydany,Rąganie,karczma,4
+1,Kieydany,Kaplicy,karczma,12
+1,Kieydany,Bałance,karczma,8
+1,Kieydany,Puplice,karczma,2
+1,Kieydany,Pradzie,karczma,7
+1,Kieydany,Zagonicy,karczma,5
+1,Kieydany,Suraycie,karczma,6
+1,Kieydany,Wędziagoła,miasteczko,24
+1,Kieydany,Butkany,karczma,6
+1,Kieydany,Uzumisky,karczma,5
+1,Kieydany,Eyzingole,karczma,7
+1,Kieydany,Szatyie,karczma,5
+1,Kieydany,Domaszew,browar,4
+1,Kieydany,Pedsalo,karczma,19
+1,Kieydany,Łomestkiemie,karczma,6
+1,Kieydany,Czerniach,wieś,2
+1,Kieydany,Werszuy,karczma,10
+1,Kieydany,Werizny,karczma,7
+1,Kieydany,Koniuchy,karczma,20
+1,Kieydany,Wedesz,karczma,7
+1,Kieydany,Romańska,karczma,8
+1,Kieydany,Sielbielka,karczma,12
+1,Kieydany,Mniszech,wieś,5
+1,Kieydany,Młynku Romanskim,młyn,3
+1,Kieydany,Binite,karczma,14
+1,Kieydany,Upita,karczma,5
+1,Kieydany,Moniszkance,karczma,8
+1,Kieydany,Podanie,karczma,10
+1,Kieydany,Słabuchica,karczma,8
+1,Kieydany,Bobty,karczma,33
+1,Kieydany,Piepołe,karczma,12
+1,Kieydany,Bąbanie,dwor,6
+1,Kieydany,Babinie,karczma,9
+1,Kieydany,Wigie,karczma,6
+1,Kieydany,Artojnic,karczma,9
+1,Kieydany,Pacuny,karczma,3
+1,Kieydany,Wimbory,karczma,4
+1,Kieydany,Propie,karczma,13
+1,Kieydany,Dasuny,karczma,6
+1,Kieydany,Dołepie,karczma,6
+1,Kieydany,Bojary,karczma,12
+1,Kieydany,Warckanie,karczma,6
+1,Kieydany,Bakałance,karczma,6
+1,Kieydany,Mendzitary,karczma,2
+1,Kieydany,Stankuny,karczma,4
+1,Kieydany,Wziustowo,karczma,7
+1,Kieydany,Ruktse,karczma,8
+1,Kieydany,Rudzie,karczma,4
+1,Kieydany,Skovule,miasteczko,40
+1,Kieydany,Borciany,karczma,4
+1,Kieydany,Lałupcy,karczma,11
+1,Kieydany,Riaszewa,karczma,7
+1,Kieydany,Užusole,karczma,6
+1,Kieydany,Kozmiałowa,karczma,10
+1,Kieydany,Pitance,karczma,7
+1,Kieydany,Plebaniszki,karczma,20
+1,Kieydany,nad Uziow,karczma,5
+1,Kieydany,Jankiyski,karczma,8
+1,Kieydany,Moystyki,karczma,4
+1,Kieydany,Oranszyki,karczma,10
+1,Kieydany,Skrobimy,karczma,4
+1,Kieydany,Preydragota,karczma,8
+1,Kieydany,Łopie,karczma,4
+1,Kieydany,Dudbory,karczma,8
+1,Kieydany,Upniki Gieże,karczma,6
+1,Kieydany,Upniki nad rzeką,karczma,11
+1,Kieydany,Wieprze,karczma,17
+1,Kieydany,Rumpole,karczma,5
+1,Kieydany,Miłaszuny,karczma,10
+1,Kieydany,Konczysko,browar,4
+1,Kieydany,Lokiany,karczma,4
+1,Kieydany,Marcie,karczma,4
+1,Kieydany,Dawidance,karczma,4
+1,Kieydany,Rudziany,karczma,8
+1,Kieydany,Siesiki,piekarnia,5
+1,Kieydany,Normoynie,karczma,6
+1,Kieydany,Kropi,karczma,9
+1,Kieydany,Jauiany,karczma,13
+1,Kieydany,Szaty,miasto,193
+1,Kieydany,Corek,karczma,6
+1,Kieydany,Kazunie,karczma,5
+1,Kieydany,Reluży,karczma,10
+1,Kieydany,Komiany,karczma,4
+1,Kieydany,Obaznie,karczma,4
+1,Kieydany,Payżuny,karczma,5
+1,Kieydany,Kankie,karczma,6
+1,Kieydany,Beyszkany,karczma,6
+1,Kieydany,Kople,karczma,2
+1,Kieydany,Scatami,karczma,10
+1,Kieydany,Siesiki,miasteczko,68
+1,Kieydany,Wareyliski,karczma,3
+1,Kieydany,Rakaowczyzna,karczma,12
+1,Kieydany,Zyrnow,karczma,8
+1,Kieydany,Stawrygoła,karczma,10
+1,Kieydany,Mictporyszki,karczma,8
+1,Kieydany,Pikuryszki,karczma,7
+1,Kieydany,Szyrwintach,piekarnia,6
+1,Kieydany,Barysiki,karczma,6
+1,Kieydany,Małynancach,browar,10
+1,Kieydany,Witeykiszki,karczma,3
+1,Kieydany,Winksnotrocz,karczma,3
+1,Kieydany,Sosedniki,karczma,5
+1,Kieydany,Szyrwintach,browar,6
+1,Kieydany,Smole,karczma,11
+1,Kieydany,Ławkie,karczma,6
+1,Kieydany,Kiezieliszki,karczma,9
+1,Kieydany,Preezniszki,karczma,8
+1,Kieydany,Giełwany,miasto,56
+1,Kieydany,Witko Kiemie,karczma,6
+1,Kieydany,Suwole,karczma,6
+1,Kieydany,Litwiniszki,karczma,2
+1,Kieydany,Szylany,karczma,7
+1,Kieydany,Pieguzyney,karczma,10
+1,Kieydany,Upniki za Rzeką,karczma,10
+1,Kieydany,Zezdryny,karczma,6
+1,Kieydany,Pogury,karczma,6
+1,Kieydany,Pogurcze,karczma,5
+1,Kieydany,Pogiry,karczma,6
+1,Kieydany,Woywodziszki,karczma,8
+1,Kieydany,Mowli,karczma,4
+1,Kieydany,Luprany,karczma,3
+1,Kieydany,Laukogołe,karczma,3
+1,Kieydany,Jstawry,karczma,5
+1,Kieydany,Gudele,karczma,5
+1,Kieydany,Bokusławie,karczma,13
+1,Kieydany,Szuny,karczma,4
+1,Kieydany,Daniuny,karczma,8
+1,Kieydany,Szukiany,karczma,3
+1,Kieydany,Uzwolke,karczma,8
+1,Kieydany,Linkowiec,karczma,11
+1,Kieydany,Burwele,karczma,4
+1,Kieydany,Borowa,karczma,8
+1,Kieydany,Swiętobrość,karczma,4
+1,Kieydany,nad Abiszą,karczma,10
+1,Kieydany,Meyera nad Rzekłą,karczma,5
+1,Kieydany,Medeliki,karczma,11
+1,Kieydany,Nauiiny,karczma,7
+1,Kieydany,Okmiany,karczma,7
+1,Kieydany,Zeymy,miasteczko,29
+1,Kieydany,Lepie,karczma,3
+1,Kieydany,Krupie,karczma,5
+1,Kieydany,Reywiny,karczma,18
+1,Kieydany,Kutwa,karczma,8
+1,Kieydany,Rogazy,karczma,7
+1,Kieydany,Woydadytyzki,karczma,6
+1,Kieydany,Berszt,karczma,6
+1,Kieydany,Łuksz,karczma,4
+1,Kieydany,Potyłte,karczma,4
+1,Kieydany,Surwiliszki,miasteczko,11
+1,Kieydany,Papiszki,karczma,2
+1,Kieydany,Kotnoberże,karczma,6
+1,Kieydany,Stapołerże,karczma,5
+1,Kieydany,Skiemie,karczma,9
+1,Kieydany,Laksse,karczma,5
+1,Kieydany,Szarawy,karczma,3
+1,Kieydany,Pernarowka,karczma,5
+1,Kieydany,Skinderiszki,karczma,4
+1,Kieydany,Jwaszkiewicza,browar,3
+1,Kieydany,Szykaynie,karczma,6
+1,Kieydany,Pożyszerkie,karczma,5
+1,Kieydany,Gudaycie,karczma,5
+1,Kieydany,Jeszutancy,karczma,5
+1,Kieydany,Wiłaynie,karczma,8
+1,Kieydany,Plintygołe,karczma,6
+1,Kieydany,Surwąszu,browar,5
+1,Kieydany,Fetiska,karczma,4
+1,Kieydany,Kroki,miasteczko,37
+1,Kieydany,Kropity,karczma,3
+1,Kieydany,Biskupie,karczma,9
+1,Kieydany,Montwidow,karczma,7
+1,Kieydany,Guczyny,karczma,10
+1,Kieydany,Jebutany,karczma,12
+1,Siady,Zydyki,miasto,78
+1,Siady,Petrayce,karczma,6
+1,Siady,Mecedy,karczma,7
+1,Siady,Witaice,karczma,7
+1,Siady,Kalera,karczma,20
+1,Siady,Mlocka,karczma,8
+1,Siady,Połpyta,karczma,9
+1,Siady,Kictury,karczma,5
+1,Siady,Pilkay,karczma,3
+1,Siady,Kłł,karczma,6
+1,Siady,Gawryle,karczma,9
+1,Siady,Jurszko,karczma,7
+1,Siady,Pumpury,karczma,2
+1,Siady,Buzienie,karczma,3
+1,Siady,Kulice,karczma,3
+1,Siady,Maciurky,karczma,2
+1,Siady,Zomeany,miasto,4
+1,Siady,Zataycie,karczma,6
+1,Siady,Paszorkpinie,karczma,7
+1,Siady,Zmudzkie Kietury,miasto,5
+1,Siady,Kilpiszki,karczma,4
+1,Siady,Rupickie,karczma,4
+1,Siady,Gawry,karczma,10
+1,Siady,Oleyhie,karczma,4
+1,Siady,Lubska,karczma,9
+1,Siady,Łowmia,karczma,5
+1,Siady,Grynczia,karczma,4
+1,Siady,Butyki,karczma,4
+1,Siady,Kałwaryska,karczma,12
+1,Siady,Gieczanska,karczma,4
+1,Szkudy,Lenkimska,karczma,4
+1,Szkudy,Ilerszyska,karczma,6
+1,Szkudy,Norwidska,karczma,8
+1,Szkudy,Rusrurska,karczma,8
+1,Szkudy,Mosiady,miasto,39
+1,Szkudy,Wierzbałowska,karczma,5
+1,Szkudy,Zemitska,karczma,2
+1,Szkudy,Kukisztynia,karczma,4
+1,Szkudy,Skuodas 1,karczma,6
+1,Szkudy,Skuodas 2,karczma,6
+1,Szkudy,Szabkowska,karczma,4
+1,Szkudy,Jużinia,karczma,2
+1,Szkudy,Wołtowianska,karczma,4
+1,Szweksznie,Oyszanach,wieś,17
+1,Szweksznie,Zuszajciach,wieś,5
+1,Szweksznie,Gitaycach,wieś,4
+1,Szweksznie,Jukajciach,wieś,7
+1,Szweksznie,Rarmes,karczma,5
+1,Szweksznie,Pasturnie,karczma,4
+1,Szweksznie,Grotaza,karczma,6
+1,Szweksznie,Jurkayciach,wieś,5
+1,Szweksznie,Szabpianach,wieś,4
+1,Retow,Labardziach,wieś,9
+1,Retow,Giranach,wieś,10
+1,Retow,Kibartyszach,wieś,6
+1,Retow,Sprawdziach,wieś,8
+1,Retow,Budrykowskiey (Masnica),karczma,5
+1,Retow,Budrykowskiey (Niedzielnicza),karczma,7
+1,Retow,Gitoigirach,karczma,6
+1,Retow,Gomottawiach,wieś,5
+1,Retow,Dowgiałach,wieś,7
+1,Retow,Dowsinach,wieś,4
+1,Retow,Sylwestrach,wieś,4
+1,Retow,Szarłatwiszkach,wieś,9
+1,Retow,Wewirzany,miasteczko,108
+1,Retow,Brozach,wieś,7
+1,Retow,Garakalniach,wieś,6
+1,Retow,Rudgalwiach,wieś,5
+1,Retow,Bolsianach,wieś,5
+1,Wilkija,Podowgowo,karczma,7
+1,Wilkija,Ligayniach,karczma,9
+1,Wilkija,Zabiska,karczma,8
+1,Wilkija,Kwesach,karczma,10
+1,Wilkija,Jawczykowskiey,okolica,7
+1,Wilkija,Werbołunska,karczma,14
+1,Wilkija,Narepa,karczma,8
+1,Wilkija,Karngwo,karczma,10
+1,Wilkija,nad Niewiazą,karczma,15
+1,Wilkija,Sapieżyszki,karczma,10
+1,Wilkija,Skirpstawa,karczma,8
+1,Wilkija,Rotybowie,karczma,5
+1,Wilkija,Kotybowie,karczma,3
+1,Wilkija,Pocztowa,karczma,3
+1,Wilkija,Bruża,karczma,8
+1,Wilkija,Silkini,karczma,10
+1,Wilkija,Mikicka,karczma,13
+1,Wilkija,Kratkompiu,karczma,3
+1,Wilkija,Bogużyszki,karczma,6
+1,Wilkija,Egieliszki,karczma,2
+1,Wilkija,Poniemuniu,karczma,6
+1,Wilkija,Poniemuńska,karczma,7
+1,Wilkija,Dopczańska,karczma,6
+1,Wilkija,Ktapgi,karczma,6
+1,Wilkija,Kruki,karczma,10
+1,Wilkija,Srednicka nad Niemnem,karczma,10
+1,Wilkija,Sredniki,miasteczko,7
+1,Wilkija,Sredniku,karczma,6
+1,Wilkija,Podubiszu,browar,3
+1,Wilkija,Borowa,karczma,5
+1,Wilkija,Jodziach,karczma,4
+1,Wilkija,Połodziowiu,karczma,4
+1,Wilkija,Krukondach,karczma,5
+1,Wilkija,Druga w Krukondach,karczma,5
+1,Wilkija,Połoziańska,karczma,10
+1,Wilkija,Matyaszty,karczma,6
+1,Wilkija,Noweiszki,karczma,8
+1,Wilkija,Dokieta,karczma,3
+1,Wilkija,Zobołtska,karczma,7
+1,Wilkija,Zotokiszki,karczma,6
+1,Wilkija,Ruczkariach,karczma,7
+1,Wilkija,Rynzawska,karczma,10
+1,Jurbork,Johaniszbork,miasteczko,96
+1,Jurbork,Romaniski,karczma,13
+1,Jurbork,Kiszkielowski,karczma,7
+1,Jurbork,Turska,karczma,10
+1,Jurbork,Powicki,karczma,15
+1,Jurbork,Łaki,miasto,158
+1,Jurbork,Szali,miasto,106
+1,Jurbork,Władysławow,miasto,551
+1,Jurbork,Romaniszyszki,karczma,23
+1,Jurbork,Wierzbołow,miasto,351
+1,Jurbork,Morgiski,karczma,14
+1,Jurbork,Kayszayckiego,karczma,10
+1,Jurbork,Żylinskiego,karczma,7
+1,Jurbork,Michayckiego,karczma,7
+1,Jurbork,Doynieskiego,karczma,5
+1,Jurbork,Monkwitskiego,karczma,7
+1,Jurbork,Kindarkinskiego,karczma,13
+1,Jurbork,Raudynski,karczma,6
+1,Jurbork,Kaymelskiego,karczma,14
+1,Jurbork,Citowyskiego,karczma,10
+1,Jurbork,Bytgalskiego,karczma,6
+1,Jurbork,Rukszninskiego,karczma,9
+1,Jurbork,Rzepmayskiego,karczma,14
+1,Jurbork,Bajorayskiego,karczma,6
+1,Jurbork,Buksznianskiego,karczma,12
+1,Jurbork,Podwaryski,karczma,17
+1,Jurbork,Soweszyski,karczma,15
+1,Jurbork,Mihowki,karczma,13
+1,Jurbork,Narwiszki,karczma,7
+1,Jurbork,Wandzkie Budki,karczma,10
+1,Jurbork,Janukiszki,karczma,6
+1,Jurbork,Witkowskiey,karczma,9
+1,Jurbork,Sandrowiszki,karczma,7
+1,Jurbork,Inuzyszkiego,karczma,10
+1,Jurbork,Wyszkabudzkiego,karczma,17
+1,Jurbork,Galinowskiego,karczma,7
+1,Jurbork,Sapyski,karczma,11
+1,Jurbork,Muncicki,karczma,11
+1,Jurbork,Autuszewski,karczma,12
+1,Jurbork,Pzlibinowski,karczma,13
+1,Jurbork,Szepotinski,karczma,10
+1,Jurbork,Gielgudzki,karczma,16
+1,Jurbork,Papiski,karczma,5
+1,Jurbork,Dobiskiey,karczma,7
+1,Jurbork,Kliszewskiey,karczma,3
+1,Jurbork,Zumpianach,wieś,10
+1,Jurbork,Rotulski,karczma,14
+1,Jurbork,Skirstymanski,karczma,3
+1,Jurbork,Zwir,karczma,7
+1,Jurbork,Rawdanski,karczma,15
+1,Jurbork,Jzłoskie,karczma,9
+1,Jurbork,Warangi,karczma,9
+1,Jurbork,ywoniszki,karczma,7
+1,Jurbork,Pabalniszek,karczma,11
+1,Jurbork,Pabalniszki,karczma,5
+1,Jurbork,Poiurski,karczma,10
+1,Jurbork,Dunocki,karczma,9
+1,Jurbork,Dajkittawski,karczma,16
+1,Jurbork,Jawrogowski,karczma,12
+1,Jurbork,Lizowski,karczma,4
+1,Jurbork,Dawkittawski,karczma,11
+1,Jurbork,Girnucki,karczma,5
+1,Jurbork,Małyski,karczma,6
+1,Jurbork,Rynzowski,karczma,6
+1,Jurbork,Tawrogach,miasto,9
+1,Jurbork,Gawry,miasteczko,82
+1,Jurbork,Syntoft,karczma,3
+1,Jurbork,Strusi,karczma,5
+1,Jurbork,Zmoyłuszki,karczma,9
+1,Jurbork,Skrzynupoki,karczma,5
+1,Jurbork,Zypłot,karczma,10
+1,Jurbork,Jundulski,karczma,6
+1,Jurbork,Katylski,karczma,7
+1,Jurbork,Ztułbow,karczma,4
+1,Datnow,Bokesztach,karczma,10
+1,Datnow,Dzierzianach,karczma,9
+1,Datnow,Meszkutach,karczma,10
+1,Datnow,Jagkielayciach,karczma,4
+1,Datnow,Jlgiziach,karczma,12
+1,Datnow,Szylayniach,karczma,4
+1,Datnow,Jurgaiciach,karczma,9
+1,Datnow,Dewaykiszkach,karczma,6
+1,Datnow,Petsupniach,karczma,8
+1,Datnow,Ruciuszniach,karczma,10
+1,Datnow,Warnupniach,karczma,5
+1,Datnow,Jaswonskiey,karczma,11
+1,Datnow,Jaswonskiey,karczma,20
+1,Datnow,Jasłonskiey,karczma,4
+1,Datnow,Użgirdyszkach,karczma,12
+1,Datnow,Grawiełach,karczma,5
+1,Datnow,poniewieskiey,karczma,8
+1,Datnow,Kompach,karczma,6
+1,Datnow,Lypkinskiey,karczma,4
+1,Datnow,Mielcianiszkach,karczma,10
+1,Datnow,Babianach,karczma,6
+1,Datnow,Repiengiach,karczma,6
+1,Datnow,potokrosnikach,karczma,6
+1,Datnow,Dapkunach,karczma,8
+1,Datnow,Dąmbyszkach,karczma,7
+1,Wielona,Zaniemenska,karczma,10
+1,Wielona,Zukle,wieś,5
+1,Wielona,Waygoniszki,wieś,5
+1,Wielona,Pomituwie,wieś,5
+1,Wielona,Pławszynie,wieś,6
+1,Wielona,Jucie,wieś,7
+1,Wielona,Twirbuty,wieś,3
+1,Wielona,Parszynie,karczma,6
+1,Wielona,Grawzany,karczma,4
+1,Wielona,Jurysdyka Xięudza Prałata Wielonskiego,jurydyka,43
+1,Łukniki,Wieśnielach,karczma,5
+1,Łukniki,Bordziach,karczma,7
+1,Łukniki,Wirzowiany,wieś,10
+1,Łukniki,Powondenie,wieś,4
+1,Łukniki,Wornie,miasteczko,17
+1,Łukniki,Wasztokach,karczma,3
+1,Łukniki,Kowpach,browar,2
+1,Łukniki,Jawstayciach,karczma,6
+1,Łukniki,Leybiszki,karczma,14
+1,Łukniki,Potwery,karczma,8
+1,Łukniki,Twery,miasteczko,24
+1,Łukniki,Szuraycie,karczma,5
+1,Łukniki,Dalgi,karczma,8
+1,Łukniki,Połomiany,wieś,8
+1,Łukniki,Sobotwiany,wieś,3
+1,Łukniki,Stawryle,wieś,3
+1,Łukniki,Rupiany,wieś,9
+1,Łukniki,Laytow,wieś,6
+1,Łukniki,Olnowiany,wieś,8
+1,Łukniki,Miłodzie,wieś,7
+1,Łukniki,Gintenie,wieś,7
+1,Łukniki,Stancyszki,wieś,3
+1,Łukniki,Szawdynie,wieś,11
+1,Łukniki,Peteklany,wieś,4
+1,Łukniki,Duseyki,wieś,9
+1,Łukniki,Szyndolety,karczma,5
+1,Łukniki,Pupszykie,karczma,4
+1,Łukniki,Szilionty,karczma,8
+1,Łukniki,Taruidach,karczma,1
+1,Łukniki,Kigi,karczma,9
+1,Łukniki,Powaykie,karczma,10
+1,Łukniki,Kientraycie,karczma,4
+1,Łukniki,Łaudziany,wieś,11
+1,Łukniki,Tryszki,miasto,44
+1,Łukniki,Popielany,miasteczko,9
+1,Łukniki,Dyruiany,wieś,10
+1,Łukniki,Krykle,wieś,6
+1,Łukniki,Berzany,wieś,8
+1,Łukniki,Birzyniany,wieś,7
+1,Łukniki,Złewiszki,wieś,7
+1,Łukniki,Udzna,wieś,16
+1,Sałanty,Gruszłewskiey,karczma,12
+1,Sałanty,Nastranski,karczma,6
+1,Sałanty,Skaudayski,karczma,8
+1,Sałanty,Giedgowziowski,karczma,3
+1,Sałanty,Daukszewski,karczma,8
+1,Sałanty,Zemitski,karczma,6
+1,Kroze,Budraycie,karczma,29
+1,Kroze,Jawniszki,karczma,39
+1,Kroze,pozidape,karczma,29
+1,Kroze,Paswieckscie,karczma,16
+1,Kroze,Skaudwilie,karczma,19
+1,Kroze,Norkiszki,karczma,10
+1,Kroze,pazy,wieś,26
+1,Kroze,warnołowki,karczma,19
+1,Kroze,miekiszki,karczma,32
+1,Kroze,Botokach,karczma,16
+1,Kroze,Rudzia,karczma,13
+1,Kroze,Suginły,karczma,16
+1,Kroze,poworcie,karczma,13
+1,Kroze,poworciach,okolica,10
+1,Kroze,upina,miasteczko,81
+1,Kroze,Wirgie,karczma,19
+1,Kroze,Girdyszkach,dwor,26
+1,Kroze,montkiszki,karczma,29
+1,Kroze,Paieziory,karczma,29
+1,Kroze,Krutele,karczma,29
+1,Kroze,wikliny,karczma,32
+1,Kroze,Dziengry,karczma,23
+1,Kroze,Witegoła,karczma,23
+1,Kroze,obelinie,karczma,48
+1,Kroze,Balsie,miasteczko,16
+1,Kroze,Łowczyszki,karczma,13
+1,Kroze,Pikaycie,karczma,19
+1,Kroze,Podkopice,karczma,19
+1,Kroze,poczna,karczma,45
+1,Kroze,witowcie,karczma,26
+1,Kroze,Szpele,miasto,659
+1,Woynuta,Romaniszki,wieś,9
+1,Woynuta,Deguice,wieś,84
+1,Woynuta,Zwirgie,wieś,15
+1,Woynuta,Smikucie,wieś,7
+1,Woynuta,Skirzkiemach,wieś,6
+1,Woynuta,Stokaycie,wieś,11
+1,Woynuta,Morgiszki,wieś,15
+1,Woynuta,Zygayciach,wieś,8
+1,Woynuta,Wyżbory,wieś,33
+1,Woynuta,Nowym Miescie,miasto,258
+1,Woynuta,Kulniki,wieś,13
+1,Wieksznia,Lackow,wieś,33
+1,Wieksznia,Mich.,wieś,6
+1,Wieksznia,Kurmayciach,wieś,8
+1,Wieksznia,Kabatdyskach,wieś,7
+1,Wieksznia,Buknayciach,wieś,8
+1,Wieksznia,Sodobrastach,wieś,10
+1,Wieksznia,Purplach,wieś,11
+1,Wieksznia,Auksodriach,wieś,4
+1,Wieksznia,Zagaretach,wieś,12
+1,Wieksznia,Meyziach,wieś,9
+1,Wieksznia,Sonteklach,wieś,10
+1,Wieksznia,Zubikach,wieś,15
+1,Wieksznia,Uźlekniach,wieś,7
+1,Wieksznia,Kiegrech,wieś,5
+1,Wieksznia,Liniciach,wieś,13
+1,Wieksznia,Layzowie,wieś,17
+1,Telsze,Wieszwiany,starostwo,7
+1,Telsze,Niewerany,miasteczko,7
+1,Telsze,Soroki,wieś,8
+1,Telsze,Poszyt,wieś,9
+1,Telsze,Broviki,wieś,5
+1,Raseynie,Niemokszty,miasteczko,109
+1,Raseynie,Taranki,karczma,3
+1,Raseynie,Gieysze,karczma,9
+1,Raseynie,litusy,karczma,5
+1,Raseynie,Salwuty,karczma,6
+1,Raseynie,Gintaycie,karczma,6
+1,Raseynie,Podubisia (Bartoszewicz),karczma,8
+1,Raseynie,Podubisia (Horodeckiego),karczma,5
+1,Raseynie,Oleskyny,karczma,10
+1,Raseynie,Gapfrewicza,karczma,12
+1,Raseynie,Sutkaycie,karczma,7
+1,Raseynie,Podubisia (Przeciszewskiego),karczma,9
+1,Raseynie,Podubisia (Billewicza),karczma,5
+1,Raseynie,Lukowiany,miasteczko,5
+1,Raseynie,Olieie,karczma,9
+1,Raseynie,Rybuki,karczma,8
+1,Raseynie,Juszkaycie,karczma,8
+1,Raseynie,Syteli,karczma,7
+1,Raseynie,Szydłow,miasteczko,7
+1,Raseynie,Łyginy,miasteczko,9
+1,Raseynie,Jawczyka,karczma,6
+1,Raseynie,Zołoki,karczma,6
+1,Raseynie,Syrucie,karczma,3
+1,Raseynie,Sołuknie,karczma,5
+1,Raseynie,Piliturnie,karczma,4
+1,Raseynie,Podubisie (Stankiewicza),karczma,9
+1,Raseynie,Mitaszaycie,karczma,9
+1,Raseynie,Sakalniszki,karczma,10
+1,Raseynie,Masławczyszki,karczma,2
+1,Raseynie,Lepmigoła,karczma,4
+1,Raseynie,Kiebucie,karczma,6
+1,Raseynie,Girdwoynie,karczma,6
+1,Raseynie,Arntaszaycie,karczma,8
+1,Raseynie,Paktonie,karczma,7
+1,Raseynie,Kotonie,karczma,8
+1,Raseynie,Szuble,karczma,7
+1,Raseynie,Rudzi,karczma,10
+1,Raseynie,Stolaraycie,karczma,10
+1,Raseynie,Prawcy,karczma,9
+1,Raseynie,Jotkaynie,karczma,5
+1,Raseynie,Wowkazyna,karczma,6
+1,Raseynie,Mikaycie,karczma,8
+1,Raseynie,Zwyreda,karczma,5
+1,Raseynie,Pataycie,karczma,13
+1,Raseynie,Mankuny,karczma,10
+1,Raseynie,Płuszyny,karczma,6
+1,Raseynie,Słobodka,karczma,7
+1,Raseynie,Wegini,karczma,7
+1,Raseynie,Girtokoli,miasteczko,5
+1,Raseynie,Powattonie,karczma,7
+1,Raseynie,Gintera,karczma,5
+1,Raseynie,Kieszkowicza,karczma,4
+1,Raseynie,Michniszka,karczma,11
+1,Raseynie,Kosakowskiego,karczma,6
+1,Raseynie,Suroyny,karczma,8
+1,Raseynie,Uwgayta,karczma,9
+1,Raseynie,Blinstrubiszki,karczma,9
+1,Raseynie,Widukle,miasteczko,6
+1,Raseynie,Duba,karczma,6
+1,Raseynie,Zaborowska,karczma,9
+1,Raseynie,Konopiny (małeriank),karczma,4
+1,Raseynie,druga Konopiny,karczma,4
+1,Raseynie,Oszkiele,karczma,6
+1,Raseynie,Grawy,karczma,7
+1,Raseynie,Konopiny (Jastremskiego),karczma,4
+1,Raseynie,Woytoby,karczma,6
+1,Raseynie,Lupkiszki,karczma,4
+1,Raseynie,Katnucie,karczma,4
+1,Raseynie,towbucie,karczma,4
+1,Raseynie,Giełguda pod Dworem,karczma,4
+1,Raseynie,Rasiąya,karczma,8
+1,Raseynie,Szmułki,karczma,5
+1,Raseynie,Sulagmi,karczma,5
+1,Raseynie,Alexandraycie,karczma,5
+1,Raseynie,Butery,karczma,4
+1,Raseynie,Zegnigota,karczma,6
+1,Raseynie,Kwadony,karczma,11
+1,Raseynie,Łuyndyrey,karczma,8
+1,Raseynie,Ragugni,karczma,6
+1,Raseynie,Oduchowo,karczma,2
+1,Raseynie,Neylaycie,karczma,2
+1,Raseynie,Waylistaycie,karczma,4
+1,Kielmy,Uzwenty,miasteczko,73
+1,Kielmy,Korszany,miasteczko,26
+1,Kielmy,Młyn Grawiy,młyn,5
+1,Kielmy,na Rusi,karczma,6
+1,Kielmy,Pluszkaycie,wieś,7
+1,Kielmy,Dwarwica,wieś,6
+1,Kielmy,Gompiow,wieś,5
+1,Kielmy,Janowca,wieś,7
+1,Kielmy,Szatoki,wieś,4
+1,Kielmy,Szlizyszki,wieś,10
+1,Kielmy,Lala,wieś,6
+1,Kielmy,Kusimery,wieś,6
+1,Kielmy,Bałtmiszki,wieś,6
+1,Kielmy,Kozłowskiego,browar,4
+1,Kielmy,Bajoraycie,wieś,5
+1,Kielmy,Sawdiniki,wieś,7
+1,Kielmy,Siwiny,wieś,4
+1,Kielmy,Potapiszy,wieś,10
+1,Kielmy,Kubile,wieś,5
+1,Kielmy,Jmancy,wieś,10
+1,Kielmy,Podubisa,wieś,5
+1,Kielmy,Patukowie,wieś,6
+1,Kielmy,Kantaucie,wieś,6
+1,Kielmy,Bogdanowicza,karczma,4
+1,Kielmy,Gidweytaycie,wieś,4
+1,Kielmy,Latayki,wieś,7
+1,Kielmy,Posrymszy,wieś,5
+1,Kielmy,Wileyskie,wieś,7
+1,Kielmy,Pakope,wieś,8
+1,Kielmy,Juszaycia,wieś,6
+1,Kielmy,Auksztolki,wieś,5
+1,Kielmy,Podubisa (Iniskiego),wieś,7
+1,Kielmy,Młyn Iniskiego,młyn,6
+1,Kielmy,Sumetuli,browar,6
+1,Kielmy,Stulgińskiego,browar,6
+1,Kielmy,Bogdomiszki,wieś,7
+1,Kielmy,Gieguźyne,wieś,4
+1,Kielmy,Jnatina,wieś,11
+1,Kielmy,Jnalinie,wieś,3
+1,Kielmy,Tarusie,wieś,7
+1,Kielmy,Beymaryszki,wieś,6
+1,Kielmy,Jneki,wieś,6
+1,Kielmy,Podigłe,wieś,3
+1,Kielmy,Szodeli,wieś,7
+1,Kielmy,Kurtowiany,wieś,17
+1,Kielmy,Trolany,wieś,4
+1,Kielmy,Gulminiszki,wieś,7
+1,Kielmy,Szemelyszki,wieś,6
+1,Kielmy,Kibarty,wieś,6
+1,Kielmy,Biała,wieś,5
+1,Kielmy,Noliszki,wieś,8
+1,Kielmy,Baczayce,wieś,8
+1,Kielmy,Smilgie,wieś,6
+1,Kielmy,Stanaycie,wieś,4
+1,Kielmy,Ruiwki,wieś,3
+1,Kielmy,Tyki,wieś,4
+1,Kielmy,Wizdergi,wieś,8
+1,Kielmy,Liaplaycie,wieś,10
+1,Kielmy,Słabodka,wieś,31
+1,Kielmy,Guzi,wieś,4
+1,Kielmy,Karklinie,wieś,5
+1,Kielmy,Pogarzełe,wieś,3
+1,Kielmy,Ubeysze,wieś,6
+1,Kielmy,Poramonie,wieś,3
+1,Kielmy,Pałepie,wieś,7
+1,Kielmy,Girdigołe,wieś,8
+1,Kielmy,Radowicza,browar,3
+1,Kielmy,Wizgirda,browar,4
+1,Kielmy,Dubiany,wieś,3
+1,Kielmy,Uzygiry,wieś,3
+1,Kielmy,Uzwarny,wieś,7
+1,Kielmy,Zelwy,wieś,10
+1,Kielmy,Waygow,wieś,10
+1,Kielmy,Watkianowski,wieś,4
+1,Kielmy,Judyki,wieś,7
+1,Kielmy,Zerneli,wieś,11
+1,Kielmy,Kuszkieyki,wieś,4
+1,Kielmy,Minelgi,wieś,5
+1,Kielmy,Mackiewicza,browar,3
+1,Kielmy,Pamendry,wieś,6
+1,Kielmy,Kirczy,wieś,3
+1,Kielmy,Gowgory (Janowicza),wieś,5
+1,Kielmy,Gawgory (Putwińskiego),wieś,7
+1,Kielmy,Gilewidyszki,wieś,8
+1,Kielmy,Rumpiszki,wieś,7
+1,Kielmy,Burkszy,wieś,4
+1,Kielmy,Pikuzy,wieś,4
+1,Kielmy,Piotrowicza,karczma,6
+1,Kielmy,Gordy,wieś,3
+1,Kielmy,Ryliszki,wieś,8
+1,Kielmy,Bortkaycie,wieś,6
+1,Kielmy,Patulsia,karczma,6
+1,Kielmy,Mateykie,wieś,5
+1,Kielmy,Urczyna,browar,2
+1,Kielmy,Szlapukie,wieś,7
+1,Kielmy,Powarpiany,wieś,10
+1,Kielmy,Werpiany,wieś,30
+1,Chweydany,Na Twen,wieś,17
+1,Chweydany,Pojurzu (Piłsudskiego),wieś,29
+1,Chweydany,Judranach,wieś,4
+1,Chweydany,Pojurzu (Tyszkiewicza),wieś,6
+1,Chweydany,Pojeziorach,wieś,4
+1,Chweydany,Drabuliskach,wieś,6
+1,Chweydany,Potoliskiu,wieś,4
+1,Chweydany,Rusiach,wieś,4
+1,Chweydany,Jaunach,wieś,4
+1,Chweydany,Pojurzu (Wołowicza),wieś,3
+1,Chweydany,Nowoyciach,wieś,8
+1,Chweydany,Dziawgiany,wieś,3
+1,Płungiany,Kosciołku Kulewskim,karczma,8
+1,Płungiany,Plebana Płungianskiego,karczma,9
+1,Płungiany,Maziowska,karczma,12
+1,Płungiany,Narwoyska,karczma,10
+1,Płungiany,Pimpinie,karczma,4
+1,Płungiany,Olsiady,miasto,9
+1,Płungiany,Pięgranska,karczma,7
+1,Płungiany,Słaty z Lixsudziami,miasteczko,21
+1,Płungiany,Pielendzianskie,karczma,8
+1,Płungiany,Przyałgowskiego,karczma,9
+1,Płungiany,Przyałgowie,karczma,5
+1,Płungiany,Gienocia,karczma,7
+1,Płungiany,Fundylliska,karczma,12
+1,Płungiany,Sżłiktynie,karczma,3
+1,Płungiany,Maczukach,karczma,3
+1,Płungiany,Płotcie,miasto,49
+1,Płungiany,Korciany,miasto,16
+1,Płungiany,Libgirska,karczma,5
+1,Płungiany,Przystawska,karczma,6
+1,Płungiany,Miszucka,karczma,6
+1,Płungiany,Sałocka,karczma,4
+1,Płungiany,Jazdowskiego,browar,3
+1,Płungiany,Nowosiadska,karczma,6
+1,Płungiany,Posruyskiey,karczma,5
+1,Płungiany,Sruyanska,karczma,6
+1,Płungiany,Zaleskiego,karczma,8
+1,Płungiany,Miłoszaycka,karczma,5
+1,Płungiany,Wałgczaycka,karczma,2
+1,Płungiany,Noryszkach,browar,3
+1,Płungiany,Ołksniańska,karczma,8
+1,Płungiany,Kowszanska,karczma,6
+1,Płungiany,Kiepuranska,karczma,10
+1,Płungiany,Kontowcie,miasteczko,19
+1,Płungiany,Szaszaycka,karczma,7
+1,Płungiany,Załapugi,karczma,9
+1,Płungiany,Zorany,miasteczko,14
+1,Płungiany,Nagurskiego,browar,2
+1,Płungiany,Graszciewska,karczma,13
+1,Płungiany,Medyngianska,karczma,11
+1,Płungiany,Pominijska,karczma,7
+1,Płungiany,Warnaycka,karczma,5
+1,Płungiany,Smilgiowska,karczma,8
+1,Płungiany,Kapsudzka,karczma,6
+1,Płungiany,Jawbyszyska,karczma,9
+1,Płungiany,Noryszkach,karczma,12
+1,Cyragola,Wazbucie,wieś,9
+1,Cyragola,Butłupski,wieś,2
+1,Cyragola,Surwiły,wieś,5
+1,Cyragola,Bozawola,wieś,8
+1,Cyragola,Misiuny,wieś,9
+1,Cyragola,Pacuny,wieś,7
+1,Cyragola,Dydziuli,wieś,9
+1,Cyragola,Werasow Juszkiszki,wieś,6
+1,Cyragola,Werasow Witkowskiego,wieś,6
+1,Cyragola,Kiejany,wieś,2
+1,Cyragola,Ugiany,wieś,6
+1,Cyragola,Porzecze,wieś,6
+1,Cyragola,Betygoła,wieś,6
+1,Cyragola,Giedwidy,wieś,3
+1,Cyragola,Szałroga,wieś,9
+1,Cyragola,Pokiersiniawie,wieś,6
+1,Cyragola,Polesie,wieś,12
+1,Cyragola,Gorczyskaymie,wieś,7
+1,Cyragola,Negirwa,wieś,7
+1,Cyragola,Pluszy,wieś,7
+1,Cyragola,Gryneli w Pernarowie,wieś,6
+1,Cyragola,Przykopie,wieś,10
+1,Cyragola,Małupie,wieś,10
+1,Cyragola,Piałow,wieś,7
+1,Grynkiszki,Kobylunach,wieś,9
+1,Grynkiszki,Pipłach,wieś,2
+1,Grynkiszki,Augmenach,wieś,4
+1,Grynkiszki,Gulbinach,wieś,5
+1,Grynkiszki,Moszluniach,wieś,6
+1,Grynkiszki,Martynuicach,wieś,7
+1,Grynkiszki,Uszletolach,wieś,8
+1,Grynkiszki,Meyliszkach,wieś,5
+1,Grynkiszki,Trankiniach,wieś,4
+1,Grynkiszki,Wołotkayciach,wieś,6
+1,Grynkiszki,Cendziegoli,wieś,3
+1,Grynkiszki,Poduliniach,wieś,7
+1,Grynkiszki,Papuszynach,wieś,8
+1,Grynkiszki,Burbiszkach,wieś,12
+1,Grynkiszki,Jawtuszach,wieś,5
+1,Grynkiszki,Martynayciach,wieś,3
+1,Gorżdy,Wieszayciach,wieś,9
+1,Gorżdy,Paźwielsiach,wieś,6
+1,Gorżdy,Detencyi,inny,1
+1,Połąga,Jerdach,karczma,6
+1,Dorbiany,Woynieykach,karczma,7
+1,Dorbiany,Sudzianskiey,karczma,3
+1,Dorbiany,Boynayskiey,karczma,5
+1,Dorbiany,Kościa,karczma,2
+1,Kretinga,Rudayciach,wieś,6
+1,Kretinga,Drzyzmonski,wieś,4
+1,Kretinga,Giencach,wieś,7
+1,Kretinga,Senkayciach,wieś,2
+1,Kretinga,Pleikach,wieś,5
+1,Szawlany,Kortokie,wieś,8
+1,Szawlany,Spawdzia,wieś,5
+1,Szawlany,kor Wabali,karczma,5
+1,Szawlany,Pokopeluce,wieś,3
+1,Szawlany,Rytki,karczma,6
+1,Szawlany,Woythaycie,karczma,5
+1,Szawlany,Zytaycie,karczma,3
+1,Szawlany,Piworaycie,karczma,6
+1,Szawlany,Budraycie,karczma,8
+1,Szawlany,Pogryszow,karczma,6
+1,Szawlany,Citowiany,karczma,6
+1,Szawlany,Woynotyszki,karczma,5
+1,Szawlany,Kadyty,karczma,6
+1,Szawlany,Wołotkiszki,karczma,6
+1,Szawlany,Michaliszki,karczma,5
+1,Szawlany,Popienczyzki,karczma,4
+1,Szawlany,Jokmedzie,karczma,6
+1,Szawlany,Połtyny,karczma,9
+1,Szawlany,Połyniszki,karczma,5
+1,Szawlany,Posodnie,karczma,9
+1,Szawlany,Diktorynie,karczma,7
+1,Szawlany,Daugiocie,karczma,8
+1,Szawlany,Iłgaci,karczma,6
+1,Szawlany,Werbupyszki,karczma,7
+1,Szawlany,Cepicy,karczma,6
+1,Szawlany,Patałniszki,karczma,6
+1,Szawlany,Satoki,karczma,10
+1,Szawlany,Popupiszow,karczma,4
+1,Szawlany,Szawłayci,karczma,5
+1,Szawlany,Lenartow,karczma,2
+1,Szawlany,Grygotayciu,karczma,6
+1,Szawlany,Juliki,karczma,5
+1,Cekiszki,Koitauskiey,karczma,8
+1,Cekiszki,Besmierciach,karczma,5
+1,Cekiszki,Kietnikach,karczma,7
+1,Cekiszki,Szlapusiach,karczma,7
+1,Beysagoła,Obolska,karczma,6
+1,Beysagoła,Monszunska,karczma,7
+1,Oszmiana,Wegiery,miasteczko,54
+1,Oszmiana,Klikole,miasteczko,45
+1,Oszmiana,Rzuzdowskiey,karczma,6
+1,Oszmiana,Ukirowskiey,karczma,5
+1,Oszmiana,Frankliniey,karczma,2
+1,Oszmiana,Baltynskiej,karczma,3
+1,Oszmiana,Klikolskiej,karczma,4
+1,Oszmiana,Akciskiey,karczma,6
+1,Oszmiana,Starszowskiey,karczma,5
+1,Oszmiana,Bombalskiey,karczma,3
+1,Oszmiana,Rzuchowskiey,karczma,3
+1,Oszmiana,Wilskiey,karczma,5
+1,Oszmiana,Purwianskiey,karczma,5
+1,Oszmiana,Poszykanskiey,karczma,3
+1,Oszmiana,Perszianskiey,karczma,4
+1,Oszmiana,Soblowskiey,karczma,5
+1,Oszmiana,Sauszarskiey,karczma,3
+2,Wilno,Parafia Wileńska Św. Stefana,parafia,94
+2,Wilno,Parafia Antokolska,parafia,70
+2,Wilno,Parafia Ławaryska,parafia,46
+2,Wilno,Parafia Rudomińska,parafia,65
+2,Wilno,Parafia Turgielska,parafia,109
+2,Wilno,Parafia Miednicka,parafia,75
+2,Wilno,Parafia Szumska,parafia,14
+2,Wilno,Parafia Worniańska,parafia,3
+2,Wilno,Parafia Bystrzycka,parafia,39
+2,Wilno,Parafia Solecznicka,parafia,47
+2,Wilno,Parafia Rukońska,parafia,9
+2,Wilno,Parafia Kalwaryjska,parafia,107
+2,Wilno,Parafia Niemenczyńska,parafia,109
+2,Wilno,Parafia Korkożyska,parafia,22
+2,Wilno,Parafia Dubińska,parafia,39
+2,Wilno,Parafia Giedroycka,parafia,26
+2,Wilno,Parafia Podbrzeska,parafia,91
+2,Wilno,Parafia Mejszagolska,parafia,8
+2,Wilno,Karczma Załosza,karczma,2
+2,Wilno,Przyhakałek Olkienicki,przyhakałek,50
+2,Muśniki,Parafia Muśnicka,parafia,105
+2,Muśniki,Parafia Mejszagolska,parafia,16
+2,Muśniki,Parafia Kiernowska,parafia,22
+2,Michaliszki,Karczma Morduny,karczma,7
+2,Michaliszki,Karczma Palestyna,karczma,6
+2,Michaliszki,Karczma Jacyna,karczma,2
+2,Michaliszki,Karczma Ryndziuny,karczma,15
+2,Michaliszki,Karczma Judzinniki,karczma,15
+2,Michaliszki,Karczma Gołezuny,karczma,5
+2,Michaliszki,Karczma Zielona,karczma,8
+2,Michaliszki,Karczma Worniany,karczma,13
+2,Michaliszki,Karczma Worona,karczma,10
+2,Michaliszki,Karczma Jerozuny,karczma,6
+2,Michaliszki,Karczma Zagoza,karczma,7
+2,Michaliszki,Karczma Joza,karczma,5
+2,Michaliszki,Karczma Warlacze,karczma,7
+2,Michaliszki,Karczma Sawiszki,karczma,9
+2,Michaliszki,Karczma Czechy (Bystrzyckie),karczma,6
+2,Michaliszki,Karczma Czechy,karczma,5
+2,Michaliszki,Karczma Zuziny,karczma,12
+2,Michaliszki,Karczma Malarka,karczma,9
+2,Michaliszki,Karczma Bołopia,karczma,6
+2,Michaliszki,Karczma Olosy,karczma,13
+2,Michaliszki,Karczma Gierwiaty,karczma,8
+3,Kowno,Parafia tegoz Przy Kachału Kowienskiego,parafia,162
+3,Kowno,Karczma Nowa Wiliampolska Podborek,karczma,4
+3,Kowno,Karczma Marwa Wiliampolska,karczma,5
+3,Kowno,Karczma Eigule Rumszyska,karczma,5
+3,Kowno,Karczma Kaczarginie Rumszyska,karczma,5
+3,Kowno,Karczma Mikuny,karczma,6
+3,Kowno,Karczma S. Krzyska,karczma,5
+3,Kowno,Poniemun Karczma Czerwona i Karczma nad Przewozem,karczma,9
+3,Kowno,Karczma nad przewozem z drugiey strony Niemna,karczma,34
+3,Kowno,Karczma przy Młynie,karczma,3
+3,Kowno,Karczma Wiciuny,karczma,4
+3,Kowno,Karczma nad Jesio,karczma,6
+3,Kowno,Karczma Rakeskimie,karczma,6
+3,Kowno,Karczma Ponwiu,karczma,6
+3,Kowno,Karczma Kiebliska,karczma,4
+3,Kowno,Karczma Szłanow,karczma,5
+3,Kowno,Karczma Łęgirmonie,karczma,4
+3,Kowno,Karczma Jakimiszki,karczma,4
+3,Kowno,Karczma Lękonie,karczma,3
+3,Kowno,Karczma Taurokiemie,karczma,2
+3,Kowno,Karczma Zielona Dorsuniska,karczma,4
+3,Kowno,Karczma Turson,karczma,3
+3,Kowno,Karczma Szylany,karczma,6
+3,Kowno,Karczma Dworaliszki,karczma,2
+3,Kowno,Karczma Niewiarowicze,karczma,6
+3,Kowno,Karczma Omole,karczma,4
+3,Kowno,Karczma Pietraszuny,karczma,5
+3,Kowno,Karczma Woyszwidow,karczma,5
+3,Kowno,Karczma Dowolgowicze,karczma,4
+3,Kowno,Karczma Seybuty,karczma,5
+3,Kowno,Karczma w Okolicy Bostkunach,karczma,2
+3,Kowno,Karczma w Okolicy Hermanowiczach,karczma,3
+3,Kowno,Karczma Lioza,karczma,6
+3,Kowno,Karczma Wilany,karczma,4
+3,Kowno,Karczma w Miasteczku Darsuniskim,karczma,6
+3,Kowno,Karczma w Miasteczku Kromiach,karczma,4
+3,Kowno,Karczma Podstrowie,karczma,2
+3,Kowno,Karczma we Wsi Markunach,karczma,4
+3,Kowno,Karczma we Wsi Lapeyniach,karczma,2
+3,Kowno,Karczma we Wsi Dowiszupiach,karczma,4
+3,Kowno,Karczma Borewicze,karczma,3
+3,Kowno,Karczma w Miasteczku Rumszyszkach,karczma,14
+3,Kowno,Karczma Postylani,karczma,4
+3,Kowno,Karczma Nowianki,karczma,3
+3,Janow,Karczma Szandynie,karczma,8
+3,Janow,Karczma Berzanska,karczma,6
+3,Janow,Karczma Lucbuny,karczma,7
+3,Janow,Karczma Kropiny,karczma,6
+3,Janow,Karczma Bogurska,karczma,6
+3,Wędziagoła,Karczma Praulanska,karczma,5
+3,Wędziagoła,Karczma Rozaza,karczma,8
+3,Wędziagoła,Karczma Kutwa,karczma,8
+3,Wędziagoła,Karczma Wojewodziszki,karczma,8
+3,Wędziagoła,Karczma Luksza,karczma,5
+3,Wędziagoła,Karczma Siesiki,karczma,7
+3,Wędziagoła,Karczma Kaplicy,karczma,7
+3,Wędziagoła,Karczma Bance,karczma,8
+3,Wędziagoła,Karczma Liepie,karczma,5
+3,Wędziagoła,Karczma Godgiędy,karczma,2
+3,Wędziagoła,Miasteczko Zeymy,miasteczko,36
+3,Wędziagoła,Karczma Swolkanie,karczma,4
+3,Wędziagoła,Karczma Kugole,karczma,7
+3,Wędziagoła,Karczma Pradzie,karczma,4
+3,Wędziagoła,Karczma Ruzany,karczma,4
+3,Wędziagoła,Karczma Naczuny,karczma,4
+3,Wędziagoła,Karczma W Jmj Pana Mejera,karczma,12
+3,Wędziagoła,Karczma Oristowa W Jmj P Zabielly,karczma,5
+3,Wędziagoła,Karczma Oristowa W Jmj P. Dębskiego,karczma,6
+3,Wędziagoła,Karczma Rudzie,karczma,4
+3,Wędziagoła,Karczma Rapinga,karczma,7
+3,Wędziagoła,Karczma Swiętybrost,karczma,4
+3,Wędziagoła,Karczma Kamij Byzna,karczma,9
+3,Wędziagoła,Przedmiescie Kieydanskie,przedmieście,56
+3,Wędziagoła,Karczma Poabele,karczma,8
+3,Wędziagoła,Karczma Szersnie,karczma,6
+3,Wędziagoła,Karczma tegosz,karczma,10
+3,Wędziagoła,Karczma Zabunow,karczma,13
+3,Wędziagoła,Karczma Daszuny,karczma,6
+3,Wędziagoła,Karczma Paginie,karczma,8
+3,Wędziagoła,Karczma Antoniowie,karczma,9
+3,Wędziagoła,Karczma Pacuny,karczma,2
+3,Wędziagoła,Karczma Wimbory,karczma,4
+3,Wędziagoła,Karczma Lumiszki,karczma,7
+3,Wędziagoła,Karczma Butkuny,karczma,6
+3,Wędziagoła,Karczma Chibany,karczma,4
+3,Wędziagoła,Karczma Wędziagołka,karczma,10
+3,Wędziagoła,Miasteczko Bobty,miasteczko,32
+3,Wędziagoła,Karczma Bobcinska,karczma,9
+3,Wędziagoła,Karczma Judance,karczma,11
+3,Wędziagoła,Karczma Moniszkańce,karczma,9
+3,Wędziagoła,Karczma Biwiłe,karczma,9
+3,Wędziagoła,Karczma Nomanie,karczma,9
+3,Wędziagoła,Karczma Wieruszy Jchmj X.X. Jezuitow,karczma,10
+3,Wędziagoła,Karczma Wieruszy W Jmj P. Piory,karczma,7
+3,Wędziagoła,Karczma Sala,karczma,16
+3,Wędziagoła,Karczma Zankiśzki,karczma,14
+3,Wędziagoła,Karczma Mesteyki,karczma,3
+3,Wędziagoła,Karczma Draseyki,karczma,7
+3,Wędziagoła,Karczma Zomiszka,karczma,10
+3,Wędziagoła,Karczma Pozoni,karczma,6
+3,Wędziagoła,Karczma Skrabiny,karczma,3
+3,Wędziagoła,Karczma Przezagota,karczma,7
+3,Wędziagoła,Karczma Okmian,karczma,8
+3,Wędziagoła,Miasteczko Worule,miasteczko,41
+3,Wędziagoła,Karczma Lukta,karczma,8
+3,Wędziagoła,Karczma Borciany,karczma,4
+3,Wędziagoła,Karczma Szałapy,karczma,15
+3,Wędziagoła,Karczma Uczurole,karczma,7
+3,Wędziagoła,Karczma Szaszupa,karczma,8
+3,Wędziagoła,Karczma Neksztunce,karczma,3
+3,Wędziagoła,Karczma Kiezmiotowa,karczma,12
+3,Wędziagoła,Karczma Pitanec,karczma,7
+3,Wędziagoła,Karczma Plebaniszki,karczma,20
+3,Wędziagoła,Karczma Parawe,karczma,6
+3,Wędziagoła,Karczma Koniuchy,karczma,29
+3,Wędziagoła,Karczma Wedese,karczma,5
+3,Wędziagoła,Karczma Piekiełko,karczma,13
+3,Wędziagoła,Karczma Wiaki,karczma,6
+3,Wędziagoła,Karczma Jemaszkienie,karczma,5
+3,Wędziagoła,Karczma Domaszki,karczma,4
+3,Wędziagoła,Karczma Cygirgale,karczma,8
+3,Wędziagoła,Karczma Szatycie,karczma,3
+3,Wędziagoła,Karczma Szatyie,karczma,5
+3,Wędziagoła,Karczma Lepie,karczma,2
+3,Wędziagoła,Karczma Jasowa,karczma,7
+3,Wędziagoła,Karczma Czernie,karczma,2
+3,Wędziagoła,Karczma Iagowicze,karczma,4
+3,Wędziagoła,Karczma Burwele,karczma,4
+3,Wędziagoła,Karczma Migiyie,karczma,6
+3,Wędziagoła,młynku Romanskim,młyn,3
+3,Wędziagoła,Karczma Duplie,karczma,2
+3,Jezno,W Karczmie Grykopieckiey,karczma,6
+3,Jezno,W Karczmie Terezantole,karczma,5
+3,Jezno,W Karczmie Pieczewskiey,karczma,10
+3,Jezno,W Karczmie Witunskiey,karczma,11
+3,Jezno,W Karczmie Andrunskiey,karczma,5
+3,Jezno,W Karczmie Kowalskiey,karczma,11
+3,Jezno,W Karczmie Sawelanskiey,karczma,6
+3,Jezno,W Karczmie Sadackiey,karczma,12
+3,Jezno,W Karczmie Sobowskiey,karczma,5
+3,Jezno,Karczma Szyłany,karczma,4
+3,Jezno,Karczma Nisbedworska,karczma,6
+3,Jezno,Karczma Zwigrzdyszyskach,karczma,8
+3,Stokliszki,Karczma Miedzianska,karczma,7
+3,Stokliszki,Karczma Olszenika,karczma,10
+3,Stokliszki,Karczma Kielanska,karczma,8
+3,Stokliszki,Karczma Trzecianska,karczma,5
+3,Stokliszki,Karczma Piekielanska,karczma,6
+3,Stokliszki,Karczma Gireykanska,karczma,2
+3,Stokliszki,Karczma Piesztowianska,karczma,5
+3,Stokliszki,Karczmy Szyplanska,karczma,13
+3,Stokliszki,Karczma Gireykanska,karczma,6
+3,Stokliszki,Karczma Agnipiszka,karczma,6
+3,Bałwierzyszki,Karczma Gudeliska,karczma,9
+3,Bałwierzyszki,Karczma Kolninska,karczma,10
+3,Bałwierzyszki,Karczma Giełcowska,karczma,10
+3,Bałwierzyszki,Karczma Zuranska,karczma,8
+3,Bałwierzyszki,Karczma Putrasiany,karczma,7
+3,Bałwierzyszki,Karczma Ulbiska,karczma,6
+3,Bałwierzyszki,Karczma Karklinska,karczma,11
+3,Bałwierzyszki,Karczma Naikunska,karczma,15
+3,Bałwierzyszki,Karczma Dubianska,karczma,8
+3,Bałwierzyszki,Karczma Janiemonska,karczma,7
+3,Preny,Z Biersztan,wieś,6
+3,Preny,Z Pawluk,wieś,5
+3,Preny,Pawluk - Eliasz Idzkowicz,partykuła,7
+3,Preny,Z Ziemi Jkiemia,wieś,8
+3,Preny,Ziemi Jkiemia - Asesarius,partykuła,9
+3,Preny,Z Prudyzek,wieś,6
+3,Preny,w Prudyszkach,wieś,6
+3,Preny,Z Poswicia,wieś,10
+3,Preny,Z Szawlizek,wieś,6
+3,Preny,Z Pelukan,wieś,11
+3,Preny,Z Boćkienik,wieś,8
+3,Preny,Z Pałun,wieś,11
+3,Preny,Ze Sargin,wieś,7
+3,Preny,Z Wart,wieś,7
+3,Preny,Z Pokumprow,wieś,9
+3,Preny,Z Sztanka,wieś,6
+3,Preny,Z Oszminty,wieś,9
+3,Preny,Z Skierpity szek,wieś,7
+3,Preny,Z Płutyszek,wieś,6
+3,Preny,Z Antokoła,wieś,7
+3,Preny,Z Wyzow,wieś,6
+3,Preny,Z Jedu ray scin,wieś,5
+3,Marianpol,Wieś Nietyszkampie,wieś,8
+3,Marianpol,Wieś Nurty,wieś,5
+3,Marianpol,Wieś Potaszynie,wieś,10
+3,Marianpol,Wieś Gudynia,wieś,4
+3,Marianpol,Wieś Trakiszki,wieś,6
+3,Marianpol,Wieś Igliszkany,wieś,5
+3,Marianpol,Wieś Surgucie,wieś,5
+3,Marianpol,Wieś Puskielnia,wieś,4
+3,Marianpol,Wieś Sztawanty,wieś,8
+3,Wyłkowyszki,Karczma Pustopedzie,karczma,7
+3,Wyłkowyszki,Karczma Sordaki,karczma,9
+3,Wyłkowyszki,Karczma Oszkicbole,karczma,8
+3,Wyłkowyszki,Karczma Nackabudzie,karczma,10
+3,Wyłkowyszki,Karczma Biskupie,karczma,10
+3,Wyłkowyszki,Karczma Mieżkucie,karczma,6
+3,Wyłkowyszki,Karczma Jarpucie,karczma,9
+3,Wyłkowyszki,Karczma Malaty,karczma,6
+3,Wyłkowyszki,Karczma Berdowskie,karczma,12
+3,Wyłkowyszki,Karczma Stayaycie,karczma,15
+3,Wyłkowyszki,Karczma Lauckaymie,karczma,8
+3,Wyłkowyszki,Karczma Mażucie,karczma,10
+3,Wyłkowyszki,Karczma Jurlisze,karczma,6
+3,Wyłkowyszki,Karczma Obszruty,karczma,5
+3,Wyłkowyszki,Karczma Gudele Budwiecie,karczma,14
+3,Wyłkowyszki,Karczma Porownie,karczma,10
+3,Wyłkowyszki,Karczma Gulbiniszki,karczma,14
+3,Wyłkowyszki,Karczma Bobrowniki,karczma,6
+3,Wyłkowyszki,Karczma Gudele Tury,karczma,6
+3,Wyłkowyszki,Karczma Pojeziorach,karczma,7
+3,Wyłkowyszki,Karczma Woyszławce,karczma,7
+3,Wyłkowyszki,Karczma Potumbiszkach,karczma,4
+3,Wyłkowyszki,Karczma Jadkunach,karczma,15
+3,Wyłkowyszki,Karczma Kieturkomie,karczma,8
+3,Wyłkowyszki,Karczma Miszwicz,karczma,5
+3,Wyłkowyszki,Karczma Powiembrąs,karczma,11
+3,Wyłkowyszki,Karczma Penkiniach,karczma,6
+3,Wyłkowyszki,Karczma Budwieciach,karczma,7
+3,Wyłkowyszki,Karczma Poniemeniach,karczma,8
+3,Wyłkowyszki,Karczma Gieyszłoryszkach,karczma,6
+3,Wyłkowyszki,Karczma Horskowszczyznie,karczma,9
+3,Wyłkowyszki,Karczma JP. Sytetyna Kumiecie,karczma,4
+3,Wyłkowyszki,Karczma Lanlieliszki,karczma,14
+3,Wyłkowyszki,Karczma Stołowka,karczma,4
+3,Wyłkowyszki,Karczma Podborek,karczma,6
+3,Wyłkowyszki,Karczma Gieysztoryszki,karczma,8
+3,Wyłkowyszki,Karczma Bojary,karczma,5
+3,Wyłkowyszki,Karczma Wyszczekaymie,karczma,3
+3,Wyłkowyszki,Karczma Potwiecie,karczma,6
+3,Wyłkowyszki,Karczma Bobłowka,karczma,9
+3,Wyłkowyszki,Karczma Szubli,karczma,11
+3,Wyłkowyszki,Karczma Rumaki,karczma,8
+3,Wyłkowyszki,Karczma Gyżyny,karczma,5
+3,Wyłkowyszki,Karczma Gykiszniowa,karczma,9
+3,Wyłkowyszki,Karczma Bajery JP. Pilichowskiego,karczma,12
+3,Wyłkowyszki,Karczma Gutkowo,karczma,8
+3,Wyłkowyszki,Karczma Olwita JP Wisogierda,karczma,6
+3,Wyłkowyszki,Karczmy Olwita JP Kozierowskiego,karczma,5
+3,Wyłkowyszki,Karczmie Wierrupie,karczma,6
+3,Wyłkowyszki,Karczma Siawdyniszki,karczma,5
+3,Wyłkowyszki,Karczma Kisieniszki,karczma,8
+3,Wyłkowyszki,Karczma Miercze,karczma,5
+3,Wyłkowyszki,Karczma Potylcze,karczma,5
+3,Wyłkowyszki,Karczmie Olszniany,karczma,7
+3,Wyłkowyszki,Karczmie Sztarki,karczma,3
+3,Wyłkowyszki,Karczma Ruda,karczma,13
+3,Wyłkowyszki,Karczma Rumielany,karczma,7
+3,Wyłkowyszki,Karczmie Jodupiany,karczma,10
+3,Wyłkowyszki,Karczmie Dorzynkiszkach,karczma,9
+3,Wyłkowyszki,Karczmie Bobi,karczma,6
+3,Wyłkowyszki,Karczmie Pilwiszkach,karczma,16
+3,Wyłkowyszki,Karczmie Goystry,karczma,5
+3,Wyłkowyszki,Karczmie Gawałtowie,karczma,4
+3,Wyłkowyszki,Karczmie Jurze,karczma,6
+3,Wyłkowyszki,Karczmie Wysokiey Rudzie,karczma,11
+3,Wyłkowyszki,Karczma Korduki,karczma,6
+3,Wyłkowyszki,Karczmie Osupiach,karczma,10
+3,Wyłkowyszki,Karczmie Porowsiach,karczma,7
+3,Wyłkowyszki,Karczma Kumeyki,karczma,10
+3,Wyłkowyszki,Karczma Kurbiki,karczma,6
+3,Wisztyniec,Karczma Palkimy,karczma,6
+3,Wisztyniec,Karczma Papeczki,karczma,4
+3,Wisztyniec,Karczma Tatarkiemie,karczma,3
+3,Wisztyniec,Karczma Powisztaycie,karczma,7
+3,Wisztyniec,Karczma Gyzyszki,karczma,3
+3,Punie,Pomemuniki Karczma,karczma,12
+3,Punie,Karczma Strzelcie,karczma,12
+3,Punie,Karczma Butrymiszki,karczma,7
+3,Punie,Karczma Duszelniki,karczma,5
+3,Punie,Karczma Udryia,karczma,9
+3,Punie,Karczma Cybulaki,karczma,6
+3,Punie,Karczma Raudoniki,karczma,9
+3,Punie,Karczma Soboliszki,karczma,15
+3,Punie,Karczma Nowickie,karczma,7
+3,Punie,Karczma Ruknowicze,karczma,12
+3,Punie,Karczma Pakossowo,karczma,5
+3,Punie,Karczma Kolesniki,karczma,3
+3,Punie,Karczma Stroga,karczma,8
+3,Punie,Karczma Wiezance,karczma,8
+3,Punie,Karczma Polepie,karczma,8
+3,Punie,Karczma Krużunce,karczma,7
+3,Punie,Karczma Stylgance,karczma,6
+3,Punie,Karczma Gryszkanic Tatarska,karczma,4
+3,Punie,Karczma Płosołniki Tatarska,karczma,8
+3,Ludwinowo,Karczma Wydgirÿ,karczma,11
+3,Ludwinowo,Karczma Skardupiany,karczma,8
+3,Ludwinowo,Karczma Bytowatÿ,karczma,10
+3,Ludwinowo,Karczma Putryszki,karczma,7
+3,Ludwinowo,Karczma Wornupiany,karczma,8
+3,Ludwinowo,Karczma Dauksze,karczma,13
+3,Ludwinowo,Karczma Amalwiszki,karczma,8
+3,Ludwinowo,Karczma P Pustrzencewicza,karczma,5
+4,Szawle,Arędarz Mefsnicki,karczma,12
+4,Szawle,Arędarz Bubiowski,karczma,6
+4,Szawle,Arędarz Berłuski,karczma,11
+4,Szawle,Arędarz Stefanowski,karczma,3
+4,Szawle,Arędarz Ginkunski,karczma,6
+4,Szawle,Arędarz Łokutpolki,karczma,13
+4,Szawle,Arędarz Krupnacki,karczma,4
+4,Szawle,Arędarz Leparski,karczma,11
+4,Szawle,Arędarz Giterski,karczma,6
+4,Szawle,Arędarz Jaksztayski,karczma,5
+4,Szawle,Arędarz Jatacki,karczma,5
+4,Szawle,Arędarz Miszeyski,karczma,10
+4,Szawle,Arędarz Werbunski,karczma,11
+4,Szawle,Arędarz Radziviliski,karczma,14
+4,Szawle,Arędarz Gowzdziewski,karczma,23
+4,Szawle,Arędarz Wasilunski,karczma,6
+4,Szawle,Arędarz Łuboszayski,karczma,10
+4,Szawle,Arędarz Beynoracki,karczma,6
+4,Szawle,Arędarz Giedwidzki,karczma,6
+4,Szawle,Arędarz Dzieknayski,karczma,8
+4,Szawle,Arędarz Sutkunski,karczma,8
+4,Szawle,Arędarz Janużkayski,karczma,10
+4,Szawle,Arędarz Steyciow,karczma,16
+4,Szawle,Arędarz Kaysowski,karczma,10
+4,Szawle,Arędarz Szutanski,karczma,5
+4,Szawle,Arędarz Stałowski,karczma,10
+4,Szawle,Arędarz Modwian-ski,karczma,2
+4,Szawle,Arędarz Wowerski,karczma,6
+4,Szawle,Arędarz Dorożiestanski,karczma,6
+4,Szawle,Arędarz Bouwaznski,karczma,10
+4,Szawle,Arędarz Podwinszki,karczma,5
+4,Szawle,Arędarz Szmyrge-li,karczma,6
+4,Szawle,Arędarz Stypiliski,karczma,11
+4,Szawle,Gruzdziewscy Krawcy,wieś,5
+4,Szadow,Karczma Woynicka,karczma,11
+4,Szadow,We Wsi Wetzach,wieś,3
+4,Szadow,We Wsi Woyzinta...,wieś,9
+4,Szadow,We Wsi Gimbayole,wieś,11
+4,Szadow,We Wsi Bobruiach,wieś,2
+4,Szadow,We Wsi Łoużiorach,wieś,10
+4,Szadow,We Wsi Zybortach,wieś,9
+4,Szadow,We Wsi Zukianach,wieś,10
+4,Szadow,We Wsi Pawlianach,wieś,4
+4,Szadow,We Wsi Roginianach,wieś,7
+4,Szadow,We Wsi Pakalniszkach,wieś,10
+4,Szadow,We Wsi Szyłeykanach,wieś,11
+4,Szadow,Młyn Trieskim,młyn,12
+4,Szadow,We Wsi Eysymayciach,wieś,8
+4,Szadow,Młynie,młyn,1
+4,Szadow,We Wsi Tarwidach,wieś,5
+4,Szadow,We Wsi Gikanach,wieś,8
+4,Szadow,We Wsi Plebanskiey,wieś,7
+4,Szadow,We Wsi Naymeyże,wieś,9
+4,Szadow,We Wsi Szymoniskach,wieś,5
+4,Szadow,Dworze Tyllinga,dwór,4
+4,Szadow,We Wsi Poniach,wieś,6
+4,Szadow,We Wsi Dawangole,wieś,6
+4,Szadow,We Wsi Arebriskach,wieś,4
+4,Szadow,We Wsi Woyszgach,wieś,9
+4,Szadow,Karczma Stukyska,karczma,9
+4,Szadow,Okolicy Werduksniach,okolica,3
+4,Szadow,We Wsi Awksztołkach,wieś,5
+4,Szadow,Awksztotkach,wieś,4
+4,Szadow,We Wsi Butenach,wieś,9
+4,Szadow,We Wsi Pastanach,wieś,5
+4,Nowemiasto,Karczma Tyszkiewicza,karczma,15
+4,Nowemiasto,Karczma Woytwilce,karczma,5
+4,Nowemiasto,Karczma Lubiszki,karczma,11
+4,Nowemiasto,Karczma Matuny,karczma,7
+4,Nowemiasto,Karczma Dowasecie,karczma,13
+4,Nowemiasto,Karczma Winupie,karczma,7
+4,Nowemiasto,Karczma Barnatany,karczma,4
+4,Nowemiasto,Karczma Lekupie,karczma,7
+4,Nowemiasto,Karczma Kretinowstka,karczma,5
+4,Nowemiasto,Karczma Wodekty,karczma,8
+4,Nowemiasto,Karczma Ciglaniki,karczma,8
+4,Nowemiasto,Karczma Jodkany,karczma,6
+4,Nowemiasto,Karczma Byrzety,karczma,8
+4,Nowemiasto,Karczma Bizycil,karczma,10
+4,Nowemiasto,Karczma Kondrany,karczma,8
+4,Nowemiasto,Karczma Dapszany,karczma,8
+4,Nowemiasto,Karczma Nowego Miasta,karczma,7
+4,Nowemiasto,Karczma Kwaynickiey,karczma,9
+4,Nowemiasto,Karczma Naurody,karczma,11
+4,Nowemiasto,Karczma Mayszgole,karczma,8
+4,Nowemiasto,Karczma Strzelany,karczma,7
+4,Nowemiasto,Karczma Liberyszka,karczma,10
+4,Nowemiasto,Karczma Raiszy,karczma,5
+4,Nowemiasto,We Dworze Bitowta,dwór,3
+4,Nowemiasto,Miasteczko Smylgi,miasteczko,12
+4,Nowemiasto,Karczma wielka,karczma,9
+4,Nowemiasto,Karczma Swiecka,karczma,6
+4,Nowemiasto,Karczma Bordełaynie,karczma,14
+4,Nowemiasto,Karczma Borykłanie,karczma,13
+4,Nowemiasto,Karczma Kuikle,karczma,6
+4,Nowemiasto,Karczma Tartkury,karczma,8
+4,Nowemiasto,Karczma Doyście,karczma,6
+4,Nowemiasto,Karczma Wodokcie,karczma,9
+4,Nowemiasto,Karczma Ligtaiki,karczma,10
+4,Nowemiasto,Karczma Proskinay,karczma,7
+4,Nowemiasto,Werniach,wieś,4
+4,Nowemiasto,Jotkanskii,karczma,5
+4,Krakinów,Karczma Botkuny,karczma,9
+4,Krakinów,Karczma Krakinowiska,karczma,6
+4,Krakinów,Karczma Gienie,karczma,9
+4,Krakinów,Karczma Swintupie,karczma,8
+4,Krakinów,Karczma Kuszkieykie,karczma,6
+4,Krakinów,Karczma nieskutinio,karczma,6
+4,Krakinów,Karczma rady,karczma,10
+4,Krakinów,Karczma Sieny,karczma,5
+4,Krakinów,Karczma Uspurwie,karczma,6
+4,Krakinów,Karczma Linkowicze,karczma,3
+4,Krakinów,Karczma Zelniszki,karczma,6
+4,Krakinów,Karczma Tryngole,karczma,6
+4,Krakinów,Karczma Piłsudzkiego,karczma,8
+4,Remigoła,Karczma Papiszki,karczma,4
+4,Remigoła,Karczma Gumbrewicza,karczma,2
+4,Remigoła,Karczma Jeryski,karczma,6
+4,Remigoła,Karczma Kuciszki,karczma,6
+4,Remigoła,Karczma Jotańska,karczma,6
+4,Remigoła,Karczma Wodokty,karczma,9
+4,Remigoła,Browarnik Podcza,browar,6
+4,Remigoła,Karczma Gumbrewicza (2),karczma,5
+4,Remigoła,Karczma Dawbsky,karczma,6
+4,Remigoła,Karczma Traskowskiego,karczma,4
+4,Remigoła,Karczma Brunofa,karczma,3
+4,Remigoła,Karczma Marcinkiewicza,karczma,5
+4,Remigoła,Karczma Komigolskiego,karczma,3
+4,Remigoła,Karczma Pustowie,karczma,5
+4,Remigoła,Karczma Grzymiacy,karczma,4
+4,Remigoła,Karczma Strynowomłynskiego,karczma,5
+4,Remigoła,Karczma Skulski,karczma,3
+4,Remigoła,Karczma Lubiansk,karczma,5
+4,Remigoła,Karczma Skulsky Jataycie,karczma,7
+4,Remigoła,Karczma Pacucy,karczma,5
+4,Remigoła,Karczma Dauciory,karczma,8
+4,Remigoła,Karczma Zuiklany,karczma,3
+4,Remigoła,Karczma Użukołni,karczma,5
+4,Remigoła,Karczma Zudzi,karczma,10
+4,Poniewież,Karczma Paluniszkiey,karczma,7
+4,Poniewież,Zumbiach,wieś,4
+4,Poniewież,Pogigłoyciach,wieś,5
+4,Poniewież,Chomżyszkach,wieś,7
+4,Poniewież,Welżach,wieś,6
+4,Poniewież,Mikniunach,wieś,8
+4,Poniewież,Kirach Każnik,wieś,4
+4,Poniewież,Lepszach,wieś,6
+4,Poniewież,Tryzagołskiey,karczma,8
+4,Poniewież,Barkłoyniach,wieś,12
+4,Poniewież,Płukiach,wieś,8
+4,Poniewież,Dawkniunach,wieś,6
+4,Żagory JKMci,Skayzgir,wieś,13
+4,Żagory JKMci,Bugiudzie,wieś,11
+4,Żagory JKMci,Jawneykis,wieś,12
+4,Żagory JKMci,Stungiach,wieś,7
+4,Żagory JKMci,Zuie,wieś,11
+4,Żagory JKMci,Dwelaycie,wieś,6
+4,Żagory Stare,Karczma Rypińska,karczma,11
+4,Żagory Stare,Karczma Adgasa,karczma,9
+4,Żagory Stare,Karczma Sauskowska,karczma,6
+4,Żagory Stare,Karczma Burzwiszka,karczma,6
+4,Żagory Stare,Karczma Sawstowska,karczma,6
+4,Żagory Stare,Karczma Minkowski,karczma,3
+4,Żagory Stare,Karczma Gazowska,karczma,11
+4,Żagory Stare,Karczma Kiergatska,karczma,8
+4,Żagory Stare,Karczma Nowogrodzka,karczma,6
+4,Żagory Stare,Karczma Kryksztanska,karczma,6
+4,Żagory Stare,Karczma Sobolska,karczma,5
+4,Żagory Stare,Karczma Dousacka,karczma,8
+4,Żagory Stare,Karczma Douszicka,karczma,6
+4,Żagory Stare,Karczma Pietkalnska,karczma,21
+4,Linków,Karczma Szylesznie,karczma,5
+4,Linków,Karczma Gostagoła,karczma,5
+4,Linków,Karczma Papuszele,karczma,4
+4,Linków,Karczma Baptony,karczma,6
+4,Linków,Karczma Deyziere,karczma,6
+4,Linków,Karczma Gieuidany,karczma,6
+4,Linków,Karczma Waruny,karczma,5
+4,Linków,Karczma Szuolisztany,karczma,4
+4,Linków,Miasteczko Waszki,miasteczko,8
+4,Linków,Karczma Woynałany,karczma,8
+4,Linków,Karczma Krawkyszky,karczma,3
+4,Linków,Karczma Gruzdzie,karczma,5
+4,Linków,Karczma Windziundzie,karczma,7
+4,Linków,Karczma Kapa,karczma,3
+4,Linków,Karczma Kapany,karczma,6
+4,Linków,Karczma Kierłusznia,karczma,7
+4,Linków,Karczma Baciuny,karczma,5
+4,Linków,Karczma Pętamszki,karczma,5
+4,Linków,Karczma Wyrzgany,karczma,2
+4,Linków,Karczma Sotkuny,karczma,3
+4,Linków,Karczma Gayzuny,karczma,3
+4,Linków,Karczma Rymbuny,karczma,4
+4,Linków,Karczma Sodolipki,karczma,4
+4,Linków,Karczma Łotyszyn,karczma,3
+4,Linków,Karczma Podszużynska,karczma,6
+4,Linków,Karczma Petodzie,karczma,3
+4,Linków,Karczma Narapary,karczma,8
+4,Linków,Karczma Dymame,karczma,3
+4,Linków,Karczma Bubity,karczma,3
+4,Linków,Karczma Draudyli,karczma,3
+4,Linków,Karczma Giegiezdiach,karczma,4
+4,Linków,Karczma Januszany,karczma,3
+4,Linków,Karczma Tryszkany,karczma,4
+4,Linków,Karczma Celuza,karczma,5
+4,Linków,Karczma Girbutki,karczma,6
+4,Linków,Karczma Berzymia,karczma,7
+4,Linków,Karczma Weselkiszki,karczma,5
+4,Linków,Karczma Pomusze,karczma,5
+4,Linków,Karczma Brolinia,karczma,5
+4,Linków,Karczma Mażany,karczma,7
+4,Linków,Karczma Lodziany,karczma,4
+4,Linków,Karczma Dawnory,karczma,4
+4,Linków,Karczma Myszeyki,karczma,6
+4,Linków,Karczma Witarcie,karczma,2
+4,Pukniany,Karczma Pukiańskim,karczma,7
+4,Ligumy,Karczma Rucińska,karczma,8
+4,Pokroje,Karczma Szymkowczyzna,karczma,3
+4,Pokroje,Karczma Wilkiny,karczma,6
+4,Pokroje,Karczma Gitany,karczma,4
+4,Pokroje,Karczma Podubiska,karczma,7
+4,Pokroje,Karczma Bakszny,karczma,4
+4,Pokroje,Karczma Morey bany,karczma,10
+4,Pokroje,Karczma Cholewy,karczma,9
+4,Pokroje,Karczma Antoniewicza,karczma,10
+4,Pokroje,Karczma Kiby,karczma,8
+4,Pokroje,Karczma Worancz,karczma,7
+4,Pokroje,Karczma Rymsz,karczma,10
+4,Pokroje,Karczma Mikuny,karczma,4
+4,Pokroje,Karczma Otty,karczma,4
+4,Pokroje,Karczma Karlesi,karczma,4
+4,Pokroje,Karczma Bowbli,karczma,10
+4,Pokroje,Miasteczko Kławany,miasteczko,14
+4,Pokroje,Karczma Burweny,karczma,7
+4,Pokroje,Karczma Dewoniſzki,karczma,12
+4,Pokroje,Karczma Popkankiey,karczma,11
+4,Pokroje,Karczma Szukiany,karczma,12
+4,Pompiany,Karczma Sczardyny,karczma,11
+4,Pompiany,Karczma Deglany,karczma,7
+4,Pompiany,Karczma Waldeyle,karczma,5
+4,Pompiany,Karczma Medykany,karczma,9
+4,Pompiany,Karczma Gałuny,karczma,4
+4,Pompiany,Karczma Kidziany,karczma,7
+4,Pompiany,Karczma Michaliszki,karczma,7
+4,Pompiany,Karczma Gąsiany,karczma,5
+4,Pompiany,Karczma Galeciszki,karczma,7
+4,Pompiany,Karczma Horyliszki,karczma,5
+4,Pompiany,Karczma Gieguzy,karczma,8
+4,Pompiany,Karczma Podziuny,karczma,7
+4,Pompiany,Karczma Biszupki,karczma,9
+4,Pompiany,Karczma Popiewieky,karczma,9
+4,Pompiany,Karczma Wilkiski,karczma,3
+4,Pompiany,Karczma Kurkany,karczma,7
+4,Pompiany,Karczma Szydykany,karczma,5
+4,Pompiany,Karczma Solawczy,karczma,8
+4,Pompiany,Karczma Matkuni,karczma,6
+4,Pompiany,Karczma Pranczuny,karczma,4
+4,Pompiany,Karczma Leszczuony,karczma,3
+4,Pompiany,Karczma Szynkany,karczma,8
+4,Pompiany,Karczma Kopciuny,karczma,4
+4,Pompiany,Karczma Szwabiszki,karczma,12
+4,Pompiany,Karczma Sabany,karczma,5
+4,Łukotaty,Karczma Byczuńska,karczma,6
+4,Łukotaty,Karczma Witary,karczma,5
+4,Łukotaty,Karczma Boberadzki,karczma,4
+4,Żeymele,Karczma Gadybunach,karczma,4
+4,Żeymele,Karczma Korglach,karczma,2
+4,Żeymele,Karczma Płonianach,karczma,2
+4,Żeymele,Karczma Stachowicach,karczma,4
+4,Żeymele,Karczma Cygyszkach,karczma,5
+4,Żeymele,Karczma Stahtynach,karczma,3
+4,Żeymele,Karczma Mowerach,karczma,7
+4,Żeymele,Karczma Szczęgoliszkach,karczma,4
+4,Żeymele,Karczma Libiczach,karczma,6
+4,Żeymele,Karczma Berzynach,karczma,6
+4,Żeymele,Karczma Witeykiszki,karczma,6
+4,Żeymele,Karczma Studnikach,karczma,4
+4,Żeymele,Karczma Druczach,karczma,6
+4,Żeymele,Karczma Gelnipkl,karczma,6
+4,Żeymele,Karczma Catinach,karczma,5
+4,Żeymele,Karczma Bałtussy,karczma,5
+4,Żeymele,Karczma Małym Glebowie,karczma,10
+4,Żeymele,Karczma Grygany,karczma,6
+4,Żeymele,Karczma Laukuniszki,karczma,8
+4,Żeymele,Karczma Gałuny,karczma,7
+4,Żeymele,Karczma Baliny,karczma,7
+4,Żeymele,Karczma Judeyki,karczma,8
+4,Żeymele,Karczma Berzuliski,karczma,5
+4,Żeymele,Karczma Bawlidziuny,karczma,8
+4,Żeymele,Karczma Kawtol,karczma,6
+4,Żeymele,Karczma Bahayci,karczma,4
+4,Żeymele,Karczma Buhayci,karczma,3
+4,Żeymele,Karczma Oglina,karczma,3
+4,Żeymele,Karczma Zondaki,karczma,5
+4,Żeymele,Karczma Kruki,karczma,6
+4,Żeymele,Karczma Szykszki,karczma,5
+4,Żeymele,Karczma Dyrwiany,karczma,4
+4,Żeymele,Karczma Treygi,karczma,5
+4,Żeymele,Karczma Sasi,karczma,3
+4,Żeymele,Karczma Kruppi,karczma,6
+4,Żeymele,Karczma Łepary,karczma,8
+4,Żeymele,Karczma Mengany,karczma,3
+4,Żeymele,Karczma Wezybki,karczma,6
+4,Żeymele,Karczma Lomeyki,karczma,3
+4,Żeymele,Karczma Murawny,karczma,6
+4,Żeymele,Karczma Steygwile,karczma,5
+4,Żeymele,Karczma Gotoyci,karczma,4
+4,Żeymele,Karczma Byrzy,karczma,8
+4,Wobolniki,Karczma Nowosiedle,karczma,8
+4,Wobolniki,Karczma Surle,karczma,5
+4,Wobolniki,Karczma Narun,karczma,7
+4,Wobolniki,Karczma Kurkle,karczma,6
+4,Wobolniki,Karczma Zaley,karczma,6
+4,Wobolniki,Karczma Słotomicka,karczma,7
+4,Wobolniki,Karczma Łopiwska,karczma,8
+4,Wobolniki,Karczma Gołupska,karczma,5
+4,Wobolniki,Karczma Oginska,karczma,7
+4,Wobolniki,Karczma Miuczynska,karczma,9
+4,Wobolniki,Karczma Łahun Ska,karczma,4
+4,Wobolniki,Karczma Polebska,karczma,4
+4,Wobolniki,Karczma Gikańska,karczma,6
+4,Wobolniki,Karczma Cipiška,karczma,5
+4,Wobolniki,Karczma Graużynie,karczma,5
+4,Wobolniki,Karczma Miluńska,karczma,5
+4,Wobolniki,Karczma Jasiuliska,karczma,4
+4,Wobolniki,Karczma Szukiszki,karczma,8
+4,Wobolniki,Karczma Dworska Choynickiego,karczma,4
+4,Wobolniki,Karczma Godzie,karczma,6
+4,Wobolniki,Karczma Łobieniszka,karczma,4
+4,Wobolniki,Karczma Sodziliska,karczma,6
+4,Wobolniki,Karczma Grundziszka,karczma,7
+4,Wobolniki,Wies Keski,wieś,4
+4,Wobolniki,Wies Stasiany,wieś,4
+4,Wobolniki,Wies Stasiuki,wieś,5
+4,Wobolniki,Wies Kotluiny,wieś,6
+4,Wobolniki,Wies wilduny,wieś,6
+4,Wobolniki,Wies Gigły,wieś,5
+4,Wobolniki,Wies Maldzuny,wieś,9
+4,Wobolniki,Wies Gaylany,wieś,7
+4,Wobolniki,Wies Wołmiany,wieś,7
+4,Janiszkiele,Boszko Z Janiszkielskiey,wieś,8
+4,Janiszkiele,Karczma Drobysza,karczma,7
+4,Poswol,Karczma Witortay,karczma,6
+4,Poswol,Karczma Witortach,karczma,13
+4,Poswol,Karczma Myszogolska,karczma,4
+4,Poswol,Karczma Medyńska,karczma,4
+4,Poswol,Karczma Bikiniska,karczma,5
+4,Poswol,Karczma Narska,karczma,6
+4,Poswol,Karczma Biegienach,karczma,5
+4,Poswol,Karczma Tytkowska,karczma,5
+4,Poswol,Karczma Życzuny,karczma,6
+4,Poswol,Karczma Kaupele,karczma,4
+4,Poswol,Karczma Gutbinskiego,karczma,5
+4,Poswol,Karczma Nampsze,karczma,10
+4,Poswol,Karczma Wobolnickiego,karczma,7
+4,Poswol,Karczma Mitrapuny,karczma,7
+4,Poswol,Karczma Żebrzanska,karczma,4
+4,Poswol,Karczma Burgianach,karczma,4
+4,Poswol,Karczma Norgiełach,karczma,4
+4,Poswol,Karczma Sewakiszki,karczma,8
+4,Poswol,Karczma Dauzalinie,karczma,9
+4,Poswol,Karczma Rajuny,karczma,6
+4,Poswol,Karczma Popiwesie,karczma,9
+4,Poswol,Karczma Popiweska,karczma,7
+4,Poswol,Karczma Pomusko,karczma,7
+4,Poswol,Karczma Daukżminie,karczma,3
+4,Poswol,Karczma Żydziuny,karczma,6
+4,Poswol,Karczma Raubany,karczma,5
+4,Poswol,Karczma Czerwonego Pomusa,karczma,7
+4,Poswol,Karczma Poswoliecka,karczma,6
+4,Poswol,Karczma Xygnieryńska,karczma,7
+4,Poswol,Karczma Kulosy,karczma,4
+4,Poswol,Karczma Dawiłiszka,karczma,8
+4,Poswol,Karczma Kumeże,karczma,5
+4,Poswol,Karczma Rogowska,karczma,6
+4,Poswol,Karczma Zeydekańskim,karczma,5
+4,Poswol,Karczma Potaweńska,karczma,6
+4,Poswol,Karczma Tołuczkańska,karczma,5
+4,Birże,Miasteczko Popiel,miasteczko,21
+4,Birże,Karczma Liciszki,karczma,7
+4,Birże,Karczma Wulissrimiach,karczma,6
+4,Birże,Karczma Medeykach,karczma,6
+4,Birże,Karczma Kubiszkach,karczma,8
+4,Birże,Karczma Sodzienach,karczma,5
+4,Birże,Karczma Wirzszkupianach,karczma,2
+4,Birże,Karczma Simamach,karczma,3
+4,Birże,Karczma Putelach,karczma,3
+4,Birże,Karczma Skrobiszkach,karczma,5
+4,Birże,Karczma Paszkuciach,karczma,6
+4,Birże,Karczma Kiweciach,karczma,7
+4,Birże,Karczma Pokałniach,karczma,7
+4,Birże,Karczma Smałciszkach,karczma,8
+4,Birże,Karczma Kiezclach,karczma,7
+4,Birże,Karczma Butrynska,karczma,8
+4,Birże,Karczma Łabiszek,karczma,7
+4,Birże,Karczma Dubakach,karczma,6
+4,Birże,Karczma Radziwiliszkach,karczma,6
+4,Birże,Karczma Spinguciach,karczma,5
+4,Birże,Karczma Welikanach,karczma,7
+4,Birże,Karczma Jastowicciach,karczma,9
+4,Birże,Karczma Hermaniszkach,karczma,10
+4,Birże,Karczma Pogieliszkach,karczma,3
+4,Birże,Karczma Kirliszkach,karczma,9
+4,Birże,Karczma Kymgoyłach,karczma,7
+4,Birże,Karczma Kieliszkach,karczma,10
+4,Birże,Karczma Jukniszkach,karczma,6
+4,Birże,Karczma Dineyciach,karczma,9
+4,Birże,Karczma Giemiszlach,karczma,6
+4,Birże,Karczma Jona Lancach,karczma,7
+4,Birże,Karczma Wilke Stroga,karczma,6
+4,Birże,Karczma Barzdziunach,karczma,6
+4,Birże,Karczma Bytakiego,karczma,3
+4,Birże,Karczma Podumia,karczma,3
+4,Birże,Karczma Szkirach,karczma,6
+4,Birże,Karczma Witen,karczma,10
+4,Birże,Karczma Ciechanowacha,karczma,9
+4,Birże,Karczma Wielka Droga,karczma,5
+4,Birże,Karczma Starpa Droga,karczma,9
+4,Birże,Karczma Ciubryńska,karczma,15
+4,Birże,Karczma Pylkin,karczma,5
+4,Birże,Karczma Namandrecie,karczma,9
+4,Birże,Karczma Słania,karczma,8
+4,Birże,Karczma Rewele,karczma,8
+4,Birże,Karczma Birngale,karczma,2
+4,Birże,Karczma Mageny,karczma,3
+4,Birże,Karczma Uszypzka,karczma,7
+4,Birże,Karczma Kiemianka,karczma,6
+4,Birże,Karczma Prudy,karczma,5
+4,Birże,Karczma Pomaszka,karczma,3
+4,Birże,Karczma Kozienica,karczma,5
+4,Birże,Karczma Perkuniszki,karczma,6
+4,Birże,Karczma Paszeta,karczma,8
+4,Birże,Karczma Sza(k/l)arnia,karczma,7
+4,Birże,Karczma Ażubatra,karczma,3
+4,Birże,Karczma Latach,karczma,7
+4,Birże,Karczma Kobilunach,karczma,5
+4,Birże,Karczma Junkunska,karczma,10
+4,Birże,Karczma Ragnecka,karczma,5
+4,Birże,Karczma Putranska,karczma,6
+4,Birże,Karczma Kosakach,karczma,5
+4,Birże,Karczma Snilgiach,karczma,3
+4,Birże,Karczma Patelnia,karczma,3
+4,Birże,Karczma Biliszach,karczma,3
+4,Birże,Karczma Tałunska,karczma,6
+4,Birże,Karczma Smordanska,karczma,5
+4,Birże,Karczma Kiarszanach,karczma,8
+4,Birże,Karczma Kilianach,karczma,9
+4,Birże,Karczma Karcymiska,karczma,2
+4,Birże,Karczma Słapociach,karczma,3
+4,Birże,Karczma Użabolach,karczma,5
+4,Birże,Karczma Markunsha,karczma,5
+4,Birże,Karczma Podżionych,karczma,5
+4,Birże,Karczma Nowianska,karczma,5
+4,Birże,Karczma Łatwelska,karczma,5
+4,Birże,Karczma Paciunska,karczma,6
+4,Birże,Karczma nad Sobotą,karczma,7
+4,Birże,Karczma Kirdanska,karczma,5
+4,Birże,Karczma Jodeyszkach,karczma,2
+4,Birże,Karczma Jodzianach,karczma,2
+4,Birże,Karczma Trzecianach,karczma,6
+4,Birże,Karczma Rubańska,karczma,7
+4,Birże,Karczma Daukszkiany,karczma,7
+4,Birże,Karczma Gulbinska,karczma,7
+4,Birże,Karczma Dowmenska,karczma,6
+4,Birże,Karczma Wabiliszki,karczma,5
+4,Birże,Karczma Daugiarska,karczma,2
+4,Birże,Karczma Klauciaciu,karczma,5
+4,Birże,Karczma Bitnianska,karczma,10
+4,Birże,Karczma Cyrwanacha,karczma,7
+4,Birże,Karczma Mizańska,karczma,2
+4,Birże,Karczma Mateyska,karczma,2
+4,Birże,Karczma Druseyska,karczma,5
+4,Birże,Karczma Straszkach,karczma,7
+4,Birże,Karczma Szupełska,karczma,9
+4,Birże,Karczma Skyta Golska,karczma,2
+4,Birże,Karczma Uznaykiszkach,karczma,5
+4,Birże,Karczma Tuliska,karczma,6
+4,Birże,Karczma Pitopeczyszki,karczma,8
+4,Birże,Karczma Leyszyszkach,karczma,5
+4,Birże,Karczma Bludziach,karczma,7
+4,Birże,Karczma Kochanach,karczma,6
+4,Birże,Karczma Swidziach,karczma,7
+4,Birże,Karczma Piragowa,karczma,5
+4,Birże,Karczma Zwieiedzgata,karczma,5
+4,Birże,Karczma Poniemuniu,karczma,4
+5,Troki (Karaimi),Worotniszki,karczma,10
+5,Troki (Karaimi),Karmeliszki,wieś,7
+5,Troki (Karaimi),w lesie,karczma,9
+5,Troki (Karaimi),Gronapole,wieś,4
+5,Troki (Karaimi),Rondomance,okolica,3
+5,Troki (Karaimi),Bohdance,wieś,3
+5,Olkieniki,Puszkarenska,karczma,11
+5,Olkieniki,Pomerecki,szynk,6
+5,Olkieniki,Karpowiczowska,karczma,8
+5,Olkieniki,Dzierzominska,karczma,5
+5,Olkieniki,Leypunśka,karczma,8
+5,Olkieniki,Kurszańska,karczma,3
+5,Olkieniki,Groznicka,karczma,6
+5,Olkieniki,Jałowice,karczma,8
+5,Olkieniki,Waka,karczma,6
+5,Olkieniki,Skorbuciany,wieś,7
+5,Olkieniki,Waka Biała,wieś,9
+5,Olkieniki,Sorok Tatarach,szynk,4
+5,Olkieniki,Hanuszyszki,miasteczko,13
+5,Olkieniki,Salamanie,wieś,8
+5,Olkieniki,Drabuzniki,wieś,6
+5,Olkieniki,Samniki,wieś,6
+5,Olkieniki,Talkowo,wieś,5
+5,Olkieniki,Sokolniki,wieś,3
+5,Olkieniki,Stungiowska,karczma,5
+5,Olkieniki,Sklarye,karczma,5
+5,Olkieniki,Ładelli,karczma,7
+5,Olkieniki,Serafiniska,karczma,5
+5,Olkieniki,Serafiniszki Wieruszowskiej,karczma,10
+5,Olkieniki,Jagielance,karczma,4
+5,Olkieniki,Strakiszki,karczma,5
+5,Olkieniki,Waka (przy Wsi Charbieiewiczach),karczma,9
+5,Olkieniki,Błotna,karczma,19
+5,Olkieniki,w Piostuchowie,karczma,7
+5,Olkieniki,Kołakowzczyzna,wieś,4
+5,Olkieniki,Kandymanowicze,wieś,27
+5,Olkieniki,przy Dworze Woydagach,dom,9
+5,Olkieniki,Gobsta,karczma,9
+5,Olkieniki,Rudnicka,karczma,8
+5,Olkieniki,w Popiszkach,karczma,5
+5,Olkieniki,Taraszyszki,karczma,7
+5,Olkieniki,Konkotka,karczma,3
+5,Troki,Ulkiska,karczma,5
+5,Łosiel,Eyragołka,wieś,8
+5,Łosiel,Poici?szki,wieś,7
+5,Łosiel,Beynaru?ki,wieś,4
+5,Łosiel,Palinci?szki,wieś,7
+5,Łosiel,Guzule,wieś,4
+5,Łosiel,Siękany,okolica,9
+5,Łosiel,Gituce,wieś,4
+5,Łosiel,Szczukiszki,wieś,5
+5,Łosiel,Kairany,wieś,7
+5,Łosiel,Miciuny,karczma,6
+5,Łosiel,Giduniszki,karczma,8
+5,Łosiel,Benkuny,okolica,10
+5,Łosiel,Łyberkany,wieś,4
+5,Łosiel,Mikkiszki,wieś,3
+5,Łosiel,Lineyki,wieś,5
+5,Łosiel,Deynowo,karczma,5
+5,Łosiel,Rohnie,okolica,5
+5,Łosiel,Poporcie,miasteczko,15
+5,Łosiel,Surwele,wieś,7
+5,Łosiel,Litwiniszki,wieś,5
+5,Łosiel,Gieguzyn,wieś,5
+5,Łosiel,Kalniszki,wieś,4
+5,Łosiel,Karaciszki,wieś,3
+5,Łosiel,Borcy,wioska,3
+5,Łosiel,Witkoliszki,wieś,8
+5,Łosiel,Kionty,wioska,10
+5,Łosiel,Budele,wieś,4
+5,Żyżmory,Rusany,wieś,4
+5,Żyżmory,Krywany,wieś,2
+5,Żyżmory,Reczany,wieś,6
+5,Żyżmory,Ateykany,wieś,9
+5,Żyżmory,Antokolce,wieś,5
+5,Żyżmory,Burbiszki,wieś,7
+5,Żyżmory,Similiszki,miasteczko,17
+5,Żyżmory,Jagiellance,wieś,3
+5,Żyżmory,Kietowiska,karczma,9
+5,Żyżmory,Kietowiszki,wieś,8
+5,Żyżmory,Warkolee,wieś,12
+5,Żyżmory,Pastrawska,karczma,11
+5,Żyżmory,Brozoli,wieś,2
+5,Żyżmory,Windziuty,wieś,5
+5,Żyżmory,Prudziany,wieś,11
+5,Żyżmory,Mursztyniany,wieś,8
+5,Żyżmory,Naszkunce,wieś,7
+5,Żyżmory,Łomiance,wieś,4
+5,Żyżmory,Strawienicka,karczma,2
+5,Żyżmory,Balcerzyszki,wieś,7
+5,Żyżmory,Kudary,wieś,4
+5,Żyżmory,Kayryszki,wieś,6
+5,Żyżmory,Gorklańska,karczma,7
+5,Żyżmory,Władziszki,wieś,9
+5,Żyżmory,Smilgańska,dzierżawa,7
+5,Żyżmory,Straszuńska,karczma,6
+5,Żyżmory,Dargielany,wieś,4
+5,Żyżmory,Streypuny,wieś,2
+5,Żyżmory,Jenje,miasteczko,21
+5,Żyżmory,Gieteluny,karczma,2
+5,Żyżmory,Rykonty,miasteczko,14
+5,Żyżmory,Stanisławowszka,karczma,12
+5,Żyżmory,Strawa alias Kaypol,karczma,5
+5,Żyżmory,Bohdananska,karczma,2
+5,Żyżmory,Zaskowty,karczma,4
+5,Żyżmory,Tołczkiszki,karczma,12
+5,Butrymance,Powrozowa,karczma,6
+5,Butrymance,Eycienska,karczma,5
+5,Butrymance,Reyzewska,karczma,5
+5,Butrymance,Uzugość,miasteczko,7
+5,Butrymance,Oleszyszki,wieś,5
+5,Butrymance,Guściany,wieś,5
+5,Butrymance,Jurgielanska,karczma,11
+5,Butrymance,Sudwijszki,karczma,13
+5,Dawgi,Cizuny,wieś,7
+5,Dawgi,Zwirzdany,wieś,7
+5,Dawgi,Konczany,wieś,6
+5,Dawgi,Andrunie,wieś,5
+5,Dawgi,Buchowszyszki,wieś,11
+5,Dawgi,Skobeyki,wieś,8
+5,Dawgi,Mieszkicie,wieś,8
+5,Dawgi,Karliszka,karczma,5
+5,Dawgi,Loycie,wieś,2
+5,Dawgi,Puclaie,miasteczko,19
+5,Dawgi,Morgazere,wieś,4
+5,Dawgi,Skrsoble,wieś,7
+5,Dawgi,Morgiewicze,wieś,7
+5,Dawgi,Robiele,wieś,4
+5,Dawgi,Orany,karczma,8
+5,Dawgi,Druczuny,wieś,6
+5,Dawgi,Narwidziszki,wieś,7
+5,Dawgi,Woytowa,karczma,3
+5,Dawgi,Rokstana,okolica,4
+5,Dawgi,Bieniuny,karczma,8
+5,Dawgi,Sałance,karczma,8
+5,Dawgi,Podskupie,karczma,4
+5,Dawgi,Bobryszki,karczma,2
+5,Olita,Radziuny,wieś,8
+5,Olita,Wieniuny,wieś,9
+5,Olita,Konieuchy,wieś,8
+5,Olita,Potarańce,wieś,12
+5,Olita,Domontańce,wieś,4
+5,Olita,Lelańce,wieś,7
+5,Olita,Olowo,karczma,7
+5,Olita,Skrypiany,wieś,12
+5,Olita,Oholiy Łukach,okolica,8
+5,Olita,Piewiany,wieś,3
+5,Olita,Zadziiszki,wieś,5
+5,Olita,Junciany,wieś,7
+5,Olita,Likiszki małe,wieś,7
+5,Olita,Likiszki Wielkie,wieś,6
+5,Olita,Uzuborze,wieś,5
+5,Olita,Mikłuiany,wieś,12
+5,Olita,Łukszniany,wieś,3
+5,Olita,Łukszniany Drugie,wieś,7
+5,Olita,Antalaki,wieś,8
+5,Krakopol,Krekszciany,wieś,5
+5,Krakopol,Wornoginy,wieś,11
+5,Krakopol,Krakieniki,wieś,4
+5,Krakopol,Ctesniki Wielkie,wieś,8
+5,Krakopol,Anginiki,wieś,8
+5,Krakopol,Wierobieje,wieś,11
+5,Krakopol,Cyganowo,wieś,5
+5,Krakopol,Łaukintay,wieś,8
+5,Krakopol,Burbiszki,wieś,4
+5,Krakopol,Iwankow,wieś,4
+5,Żuwinty,Olechniany,wieś,10
+5,Żuwinty,Zaille,wieś,19
+5,Żuwinty,Solciniki,wieś,8
+5,Żuwinty,Stęza,karczma,7
+5,Żuwinty,Birszcze,wieś,6
+5,Żuwinty,Drożdy,wieś,3
+5,Żuwinty,Noweloki,wieś,7
+5,Żuwinty,Piedziszki,wieś,12
+5,Żuwinty,Loktwic,wieś,6
+5,Żuwinty,Krzywa,wieś,6
+5,Żuwinty,Borowszczyzna,wieś,4
+5,Żuwinty,Skirobole,wieś,4
+5,Krolowo Krzesło,Krolowie Krzesielskim,karczma,13
+5,Krolowo Krzesło,Paiwonie,wieś,10
+5,Krolowo Krzesło,Budwiecie,wieś,11
+5,Krolowo Krzesło,Pozomile,wieś,8
+5,Krolowo Krzesło,Karklupiany,wieś,11
+5,Krolowo Krzesło,Kibeyki,wieś,9
+5,Krolowo Krzesło,Kletkiszki,wieś,10
+5,Krolowo Krzesło,Eglupie,wieś,7
+5,Krolowo Krzesło,Prylauka,wieś,9
+5,Krolowo Krzesło,Graiowka,wieś,6
+5,Krolowo Krzesło,Warty,wieś,10
+5,Krolowo Krzesło,Taboryszki,wieś,11
+5,Krolowo Krzesło,Oszkobole,wieś,11
+5,Krolowo Krzesło,Szytobole,wieś,9
+5,Krolowo Krzesło,Sawsieniki,wieś,12
+5,Krolowo Krzesło,Karpiejewo,wieś,9
+5,Krolowo Krzesło,Lubiany,wieś,6
+5,Krolowo Krzesło,Nowiniki,wieś,6
+5,Krolowo Krzesło,Gulbiniszki,wieś,5
+5,Krolowo Krzesło,Użupie,wieś,6
+5,Krolowo Krzesło,Padole,wieś,5
+5,Krolowo Krzesło,Skordupiany,wieś,7
+5,Krolowo Krzesło,Taterzyszki,wieś,8
+5,Krolowo Krzesło,Pocynie,wieś,6
+5,Krolowo Krzesło,Dembowka,wieś,7
+5,Krolowo Krzesło,Szyłelany,wieś,7
+5,Krolowo Krzesło,Sakiszki,wieś,9
+5,Krolowo Krzesło,Winterszniepie,wieś,5
+5,Krolowo Krzesło,Witkobole,wieś,6
+5,Krolowo Krzesło,Patyki,wieś,9
+5,Krolowo Krzesło,Piekalny,wieś,6
+5,Krolowo Krzesło,Osztyra,wieś,13
+5,Krolowo Krzesło,Dowerniszki,wieś,3
+5,Krolowo Krzesło,Janowka,wieś,5
+5,Krolowo Krzesło,Satakiszki,wieś,5
+5,Merecz,Subortowiczach,wieś,6
+5,Merecz,Ligac...,wieś,8
+5,Merecz,Steynarowiczach,wieś,7
+5,Merecz,Nelicach,wieś,6
+5,Merecz,Sawinach,wieś,3
+5,Merecz,Szuklanach,wieś,10
+5,Merecz,Torucianach,wieś,4
+5,Merecz,Ryliszkach,wieś,10
+5,Merecz,Solenikach,wieś,6
+5,Merecz,Krykosztanach,wieś,16
+5,Merecz,Kryksztanach Drugich,wieś,6
+5,Merecz,Drojowach,wieś,6
+5,Merecz,Oserejach,wieś,4
+5,Merecz,Polunach,wieś,6
+5,Merecz,Torucianach Okolicy,okolica,4
+5,Merecz,Torucianach Okolicy 2,okolica,5
+5,Merecz,Bordziunach,wieś,5
+5,Merecz,Łomieciunach,wieś,10
+5,Merecz,Burbancach,wieś,4
+5,Merecz,Horoduszczu,wieś,3
+5,Merecz,Kustingach,wieś,5
+5,Merecz,Kibiszach,wieś,7
+5,Merecz,Za niemnem,wieś,7
+5,Merecz,Zamczczanka,wieś,9
+5,Merecz,Łośnicy,wieś,4
+5,Merecz,Sadzkach,wieś,4
+5,Merecz,Puhaczach,wieś,11
+5,Merecz,Ladowce,wieś,6
+5,Merecz,Mordasowie,wieś,7
+5,Merecz,Nadze,wieś,4
+5,Merecz,Czoikim Siele,wieś,8
+5,Merecz,Montwiliszkach,wieś,4
+5,Merecz,Masaliszkach,wieś,1
+5,Mirosław,Turgiska,karczma,9
+5,Mirosław,Kurucińska,karczma,4
+5,Mirosław,Iwankowska,karczma,8
+5,Mirosław,Gieyştory,karczma,4
+5,Mirosław,Miłoszanska,karczma,6
+5,Mirosław,Niemonoyjskie,miasteczko,26
+5,Mirosław,Pootłosiany,karczma,8
+5,Mirosław,Werbuciszka,karczma,7
+5,Mirosław,Gieleytańska,karczma,10
+5,Mirosław,Węgatawska,karczma,4
+5,Mirosław,Niemenoyski Za Niemnem,szynk,10
+5,Mirosław,Adruńska,karczma,6
+5,Mirosław,Marciufiskańska,karczma,6
+5,Mirosław,Siemieniszka,karczma,5
+5,Mirosław,Mańkuńska,karczma,7
+5,Mirosław,Jacuny,karczma,7
+5,Mirosław,Mackiewiczowstey,okolica,10
+5,Mirosław,Patedach,okolica,4
+5,Mirosław,Kryksztany,wieś,8
+5,Mirosław,Lachowszczyznie,wieś,6
+5,Mirosław,Ponedzany,wieś,7
+5,Mirosław,Mankuny,wieś,7
+5,Mirosław,Syrgiace,wieś,12
+5,Simno,Kotesnicki,młyn,3
+5,Simno,Sankowce,wieś,11
+5,Simno,Popiatowce,wieś,4
+5,Simno,Obolniki,wieś,8
+5,Simno,Buchunu,wieś,11
+5,Simno,Melele,miasteczko,13
+5,Simno,Sutra,wieś,9
+5,Simno,Barcie,wieś,7
+5,Simno,Tyżyniki,wieś,3
+5,Simno,Babrowniki,wieś,6
+5,Simno,Skawagole,wieś,5
+5,Simno,Gituycie,wieś,5
+5,Simno,Bombiniki,wieś,12
+5,Simno,Lebreszki,wieś,7
+5,Simno,Bobrowniki,wieś,6
+5,Simno,Bukciniki,wieś,3
+5,Simno,Lepokoi,wieś,7
+5,Simno,Rzeczewo,wieś,6
+5,Simno,Otesniki małe,wieś,5
+5,Simno,Krasniany,wieś,7
+5,Simno,Krasnianka,wieś,6
+5,Simno,Rządziński,wieś,4
+5,Simno,Obelica,wieś,14
+5,Simno,Romeyki,wieś,7
+5,Łoździeje,Swięte Jeziory,karczma,10
+5,Łoździeje,Ogaryny,wieś,7
+5,Łoździeje,Chocie,wieś,6
+5,Łoździeje,Straugie,wieś,7
+5,Łoździeje,Suszkowce,wieś,8
+5,Łoździeje,Mikince,wieś,6
+5,Łoździeje,Prepunty,wieś,3
+5,Łoździeje,Niemajuny,wieś,4
+5,Łoździeje,Popiecze,wieś,6
+5,Łoździeje,Wierstumina,wieś,6
+5,Łoździeje,Pokirsnie,karczma,5
+5,Łoździeje,Chorazyce,wieś,8
+5,Łoździeje,Pelunie,wieś,7
+5,Łoździeje,Wilka,wieś,6
+5,Łoździeje,Galadusie,karczma,11
+5,Łoździeje,Zmujdzka,wieś,14
+5,Łoździeje,Dusnicy,wieś,9
+5,Łoździeje,Burbiszki,wieś,10
+5,Łoździeje,Galincy,wieś,12
+5,Łoździeje,Ginczany,wieś,7
+5,Łoździeje,Kryksztany,wieś,8
+5,Łoździeje,Łapsze,wieś,4
+5,Łoździeje,Sagowo,karczma,10
+5,Łoździeje,Kale,karczma,5
+5,Łoździeje,Karczma Tyszkiewicza,karczma,5
+5,Łoździeje,Rzydziszki,karczma,8
+5,Kalwaria,Most Kirsnianski,karczma,8
+5,Kalwaria,Susnicka,karczma,3
+5,Kalwaria,Islądzka,karczma,6
+5,Kalwaria,Kirsnianska,karczma,7
+5,Kalwaria,Pobalina,karczma,5
+5,Kalwaria,Santoka,karczma,4
+5,Kalwaria,Menkupie,karczma,9
+5,Kalwaria,Kamien,karczma,4
+5,Kalwaria,Grawzyny,karczma,3
+5,Kalwaria,Woytkobole,karczma,4
+5,Kalwaria,Nowinka,karczma,4
+5,Kalwaria,Trokiany,karczma,3
+5,Kalwaria,Zawady,karczma,6
+5,Kalwaria,Trumpole,karczma,3
+5,Kalwaria,Woycieluszki,karczma,4
+5,Kalwaria,Sangroda,karczma,3
+5,Kalwaria,Zagorysski,karczma,6
+5,Kalwaria,Słobodka,karczma,4
+5,Kalwaria,Dawieniszki,karczma,3
+5,Kalwaria,Janowka,karczma,5
+5,Kalwaria,Borowszczyzna,karczma,4
+5,Kalwaria,Krzywk,karczma,5
+5,Kalwaria,Szatabeldzie,karczma,5
+5,Kalwaria,Zelwa,karczma,5
+5,Kalwaria,Zagaryszki,karczma,3
+5,Kalwaria,Margotroli,karczma,9
+5,Lubów,Rudka,karczma,8
+5,Lubów,w Kupowie,karczma,6
+5,Lubów,w Ogoniu,karczma,8
+5,Lubów,w Brzozowie,karczma,9
+5,Lubów,Nieszkowski,karczma,5
+5,Lubów,Rokieci,karczma,6
+5,Lubów,Kreywianach,karczma,8
+5,Lubów,Ingranach,karczma,5
+5,Lubów,Aszeryszkach,karczma,10
+5,Lubów,Jurgiszkach,karczma,2
+5,Lubów,Trypinach,karczma,6
+5,Lubów,Pogranzach,karczma,4
+5,Lubów,Makoskach,karczma,4
+5,Lubów,Budwieckey,karczma,13
+5,Lubów,Alexandrowie,karczma,2
+5,Lubów,Skayscie,wioska,7
+5,Lubów,Mackowie,karczma,7
+5,Lubów,Zawadach,karczma,7
+5,Lubów,Rudniki,karczma,12
+5,Lubów,Jegliniszkach,karczma,6
+5,Lubów,Palnickey,karczma,8
+5,Lubów,Rudzkey,karczma,2
+5,Lubów,Miklaszewsky,karczma,9
+5,Lubów,Bereznickey,karczma,13
+5,Lubów,Zukalnie,karczma,7
+5,Lubów,Punsk,miasteczko,64
+5,Grażyszki,Przeyszki,miasteczko,7
+5,Grażyszki,Kopsodzie,wieś,18
+5,Grażyszki,Krzywobole,wieś,8
+5,Grażyszki,Nowieniki,wieś,12
+5,Grażyszki,Dołomiszki,wieś,5
+5,Grażyszki,Bartele,wieś,19
+5,Grażyszki,Zakupiany,wieś,9
+5,Grażyszki,Lipołaty,wieś,3
+5,Grażyszki,Pojewoń,karczma,15
+5,Grażyszki,Łakie,wieś,7

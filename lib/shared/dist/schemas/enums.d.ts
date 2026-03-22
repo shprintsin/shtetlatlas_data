@@ -31,4 +31,8 @@ export declare const ControlTypeSchema: z.ZodEnum<["layer-toggle", "search"]>;
 export type ControlType = z.infer<typeof ControlTypeSchema>;
 export declare const MaturitySchema: z.ZodEnum<["Provisional", "Verified", "Authoritative"]>;
 export type Maturity = z.infer<typeof MaturitySchema>;
+export declare const DataMaturitySchema: z.ZodEnum<["Raw", "Preliminary", "Provisional", "Validated"]>;
+export type DataMaturity = z.infer<typeof DataMaturitySchema>;
+export declare const ResourceTypeSchema: z.ZodEnum<["XLSX", "CSV", "JSON", "PDF", "HTML", "DOCX", "ZIP", "TXT", "XLS", "PNG", "JPG", "TIFF", "URL", "UNKNOWN"]>;
+export type ResourceType = z.infer<typeof ResourceTypeSchema>;
 //# sourceMappingURL=enums.d.ts.map

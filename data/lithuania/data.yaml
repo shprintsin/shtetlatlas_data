@@ -1,0 +1,15 @@
+slug: lithuania-kahals-1765
+title: "קהלות יהודיות בליטא - מפקד 1765"
+description: ''
+maturity: Provisional
+version: '1.0.0'
+minYear: 1765
+maxYear: 1765
+resources:
+  - file: lithuanian_kahal_detailed_1765.csv
+    name: Lithuanian Kahals Detailed
+    format: CSV
+    isMainFile: true
+  - file: lithuanian_kahal_summary_1765.csv
+    name: Lithuanian Kahals Summary
+    format: CSV

@@ -1,0 +1,101 @@
+name: Deploy Maps
+
+on:
+  push:
+    branches: [main]
+    paths: ['maps/**']
+  workflow_dispatch:
+    inputs:
+      map_project:
+        description: 'Map folder to deploy (e.g., brc). Leave empty to auto-detect from commit.'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  # ── Detect which map projects changed ──────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      maps: ${{ steps.detect.outputs.maps }}
+      any: ${{ steps.detect.outputs.any }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed map projects
+        id: detect
+        run: |
+          if [ -n "${{ inputs.map_project }}" ]; then
+            # Manual dispatch — deploy specific map
+            MAPS='["${{ inputs.map_project }}"]'
+          else
+            # Auto-detect from git diff
+            BASE="${{ github.event.before }}"
+            if [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+              # First push or force-push — deploy all maps
+              MAPS=$(ls -d maps/*/ 2>/dev/null \
+                | sed 's|maps/||;s|/||' \
+                | jq -R -s -c 'split("\n") | map(select(. != ""))')
+            else
+              MAPS=$(git diff --name-only "$BASE" HEAD -- 'maps/' \
+                | sed 's|^maps/||' | cut -d'/' -f1 | sort -u \
+                | jq -R -s -c 'split("\n") | map(select(. != ""))')
+            fi
+          fi
+
+          echo "maps=$MAPS" >> "$GITHUB_OUTPUT"
+          if [ "$MAPS" = "[]" ] || [ "$MAPS" = '[""]' ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+            echo "No changed maps detected"
+          else
+            echo "any=true" >> "$GITHUB_OUTPUT"
+            echo "Changed maps: $MAPS"
+          fi
+
+  # ── Validate + Deploy each changed map ─────────────────────
+  deploy:
+    needs: detect
+    if: needs.detect.outputs.any == 'true'
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: deploy-${{ matrix.map }}
+      cancel-in-progress: false
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        map: ${{ fromJson(needs.detect.outputs.maps) }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af  # v4.1.0
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate "${{ matrix.map }}"
+        run: npx tsx scripts/validate-map.ts "maps/${{ matrix.map }}"
+
+      - name: Deploy "${{ matrix.map }}"
+        env:
+          MAPSTUDIO_API_KEY: ${{ secrets.MAPSTUDIO_API_KEY }}
+          MAPSTUDIO_API_URL: ${{ secrets.MAPSTUDIO_API_URL }}
+        run: npx tsx scripts/deploy-map.ts "maps/${{ matrix.map }}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Deploy: ${{ matrix.map }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Status:** ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Commit:** \`${{ github.sha }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Triggered by:** ${{ github.actor }}" >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,8 @@
+slug: census-1765-krakow-kahal
+title: Krakow Kahal Borders and Points 1765
+description: ''
+basemap: carto-light
+zoom: 8
+layers:
+  - districts
+  - points

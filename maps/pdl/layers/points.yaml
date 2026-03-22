@@ -1,0 +1,12 @@
+description: Imported from C:\cde\projects\project_center\site_input\kahals\all_kahals\PDL\pdl_points.geojson
+style:
+  type: category
+  field: kahal
+  palette: Earth
+  color: gray
+  weight: 1
+popup:
+  fields:
+    - name
+    - kahal
+    - pop

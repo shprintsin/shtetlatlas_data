@@ -1,0 +1,23 @@
+slug: test-unified-cli
+version: "1.0.0"
+status: draft
+title:
+  he: בדיקת קונפיג מאוחד
+  en: Unified Config Test
+excerpt:
+  en: CLI smoke test for unified config format
+tags: [test]
+map:
+  basemap: carto-light
+  zoom: 6
+  layers:
+    - slug: test_points
+      name:
+        en: Test Points
+        he: נקודות בדיקה
+      style:
+        type: simple
+        fallback_color: "#3388ff"
+        weight: 1
+      popup:
+        fields: [name, value]

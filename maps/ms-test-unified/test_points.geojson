@@ -1,7 +1,0 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [21.0, 52.0] }, "properties": { "name": "Warsaw", "value": 42 } },
-    { "type": "Feature", "geometry": { "type": "Point", "coordinates": [19.94, 50.06] }, "properties": { "name": "Krakow", "value": 17 } }
-  ]
-}

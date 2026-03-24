@@ -1,0 +1,84 @@
+﻿kahal_id,name,settlement_type,pop,miasto_pop,surroundings_count,surroundings_pop,year,volume,powiat,viv_code,geocode
+1,Kieydany,miasto,2120,483,173,1621,1765,1,Kowieński,LIT_ZMD,LIT_ZMD_KDNY
+2,Siady,miasto,459,202,30,257,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_SDYX
+3,Szkudy,miasto,552,454,13,98,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_SZKY
+4,Szweksznie,miasto,414,357,9,57,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_SZVE
+5,Retow,miasto,369,158,17,211,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_RTVX
+6,Wilkija,miasto,649,349,42,300,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_VLKA
+7,Jurbork,miasto,2322,337,74,1985,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_JRBK
+8,Datnow,miasto,350,150,25,200,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_DTNV
+9,Wielona,miasto,191,97,10,94,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_VLNA
+10,Łukniki,miasto,554,204,41,350,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_LKNI
+11,Sałanty,miasto,289,246,6,43,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_SLNY
+12,Kroze,miasto,1850,427,31,1423,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_KRZE
+13,Woynuta,miasto,515,56,11,459,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_VNTA
+14,Wieksznia,miasto,274,99,16,175,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_VKSA
+15,Telsze,miasto,219,183,5,36,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_TLSE
+16,Raseynie,miasto,1076,435,82,641,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_RSNE
+17,Kielmy,miasto,1019,301,97,718,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_KLMY
+18,Chweydany,miasto,186,94,12,92,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_CVDY
+19,Płungiany,miasto,820,423,45,397,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_PLNY
+20,Cyragola,miasto,502,337,24,165,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_CRGA
+21,Grynkiszki,miasto,177,83,16,94,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_GRNI
+22,Gorżdy,miasto,103,87,3,16,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_GRZY
+23,Połąga,miasto,128,122,1,6,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_PLAA
+24,Dorbiany,miasto,164,147,4,17,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_DRBY
+25,Kretinga,miasto,106,82,5,24,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_KRTA
+26,Szawlany,miasto,327,139,32,188,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_SZVY
+27,Cekiszki,miasto,141,114,4,27,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_CKSI
+28,Beysagoła,miasto,119,106,2,13,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_BSGA
+29,Oszmiana,miasto,273,112,17,161,1765,1,Żmudzkie,LIT_ZMD,LIT_ZMD_OSZA
+30,Wilno,miasto,4231,3206,20,1025,1765,2,Województwo Wileńskie,LIT_VLN,LIT_VLN_VLNO
+31,Antokol,miasto,317,317,0,0,1765,2,Województwo Wileńskie,LIT_VLN,LIT_VLN_ANTL
+32,Śnipiszki,miasto,116,116,0,0,1765,2,Województwo Wileńskie,LIT_VLN,LIT_VLN_SNPI
+33,Muśniki,miasto,255,112,3,143,1765,2,Województwo Wileńskie,LIT_VLN,LIT_VLN_MSNI
+34,Michaliszki,miasto,397,223,21,174,1765,2,Województwo Wileńskie / Powiat Oszmiański,LIT_VLN,LIT_VLN_MCLI
+35,Kowno,miasteczko,1003,616,44,387,1765,3,Kowieński,LIT_KWN,LIT_KWN_KVNO
+36,Janow,miasto,188,155,5,33,1765,3,Kowieński,LIT_KWN,LIT_KWN_JNVX
+37,Wędziagoła,miasteczko,753,26,82,727,1765,3,Kowieński,LIT_KWN,LIT_KWN_VEDA
+38,Jezno,miasto,129,40,12,89,1765,3,Kowieński,LIT_KWN,LIT_KWN_JZNO
+39,Stokliszki,miasteczko,132,64,10,68,1765,3,Kowieński,LIT_KWN,LIT_KWN_STKI
+40,Bałwierzyszki,miasto,476,385,10,91,1765,3,Kowieński,LIT_KWN,LIT_KWN_BLVI
+41,Preny,miasto,635,473,22,162,1765,3,Kowieński,LIT_KWN,LIT_KWN_PRNY
+42,Marianpol,miasto,347,292,9,55,1765,3,Kowieński,LIT_KWN,LIT_KWN_MRNL
+43,Wyłkowyszki,miasto,1606,1054,70,552,1765,3,Kowieński,LIT_KWN,LIT_KWN_VLKI
+44,Wisztyniec,miasto,612,589,5,23,1765,3,Kowieński,LIT_KWN,LIT_KWN_VSZC
+45,Punie,miasteczko,174,23,19,151,1765,3,Kowieński,LIT_KWN,LIT_KWN_PNEX
+46,Ludwinowo,miasto,374,304,8,70,1765,3,Kowieński,LIT_KWN,LIT_KWN_LDVO
+47,Szawle,miasto,698,412,34,286,1765,4,Upitski,LIT_UPT,LIT_UPT_SZVE
+48,Szadow,miasto,508,292,31,216,1765,4,Upitski,LIT_UPT,LIT_UPT_SZDV
+49,Nowemiasto,miasto,746,447,37,299,1765,4,Upitski,LIT_UPT,LIT_UPT_NVMO
+50,Krakinów,miasto,344,256,13,88,1765,4,Upitski,LIT_UPT,LIT_UPT_KRKV
+51,Remigoła,miasto,227,102,24,125,1765,4,Upitski,LIT_UPT,LIT_UPT_RMGA
+52,Poniewież,miasto,253,172,12,81,1765,4,Upitski,LIT_UPT,LIT_UPT_PNVZ
+53,Żagory JKMci,miasto,540,480,6,60,1765,4,Upitski,LIT_UPT,LIT_UPT_ZGJY
+54,Żagory Stare,miasto,327,215,14,112,1765,4,Upitski,LIT_UPT,LIT_UPT_ZGSY
+55,Linków,miasto,609,399,44,210,1765,4,Upitski,LIT_UPT,LIT_UPT_LNKV
+56,Pukniany,miasto,79,72,1,7,1765,4,Upitski,LIT_UPT,LIT_UPT_PKNY
+57,Ligumy,miasto,152,144,1,8,1765,4,Upitski,LIT_UPT,LIT_UPT_LGMY
+58,Pokroje,miasto,410,254,20,156,1765,4,Upitski,LIT_UPT,LIT_UPT_PKRE
+59,Pompiany,miasto,565,400,25,165,1765,4,Upitski,LIT_UPT,LIT_UPT_PMPY
+60,Łukotaty,miasto,122,107,3,15,1765,4,Upitski,LIT_UPT,LIT_UPT_LKTY
+61,Żeymele,miasto,421,194,43,227,1765,4,Upitski,LIT_UPT,LIT_UPT_ZMLE
+62,Wobolniki,miasto,266,77,32,189,1765,4,Upitski,LIT_UPT,LIT_UPT_VBLI
+63,Janiszkiele,miasto,234,219,2,15,1765,4,Upitski,LIT_UPT,LIT_UPT_JNSE
+64,Poswol,miasto,459,241,36,218,1765,4,Upitski,LIT_UPT,LIT_UPT_PSVL
+65,Birże,miasto,1053,406,107,647,1765,4,Upitski,LIT_UPT,LIT_UPT_BRZE
+66,Troki (Karaimi),miasto,117,81,6,36,1765,5,Trockie,LIT_TRK,LIT_TRK_TRKI
+67,Olkieniki,miasto,542,272,36,270,1765,5,Trockie,LIT_TRK,LIT_TRK_OLKI
+68,Troki,miasto,5,0,1,5,1765,5,Trockie,LIT_TRK,LIT_TRK_TRKI2
+69,Łosiel,miasto,288,123,27,165,1765,5,Trockie,LIT_TRK,LIT_TRK_LSLX
+70,Żyżmory,miasto,557,301,36,256,1765,5,Trockie,LIT_TRK,LIT_TRK_ZZMY
+71,Butrymance,miasto,299,242,8,57,1765,5,Trockie,LIT_TRK,LIT_TRK_BTRE
+72,Dawgi,miasto,208,58,23,150,1765,5,Trockie,LIT_TRK,LIT_TRK_DVGI
+73,Olita,miasto,371,233,19,138,1765,5,Trockie,LIT_TRK,LIT_TRK_OLTA
+74,Krakopol,miasto,93,25,10,68,1765,5,Trockie,LIT_TRK,LIT_TRK_KRKL
+75,Żuwinty,miasto,92,0,12,92,1765,5,Trockie,LIT_TRK,LIT_TRK_ZVNY
+76,Krolowo Krzesło,miasto,295,15,35,280,1765,5,Trockie,LIT_TRK,LIT_TRK_KRKO
+77,Merecz,miasto,458,252,33,206,1765,5,Trockie,LIT_TRK,LIT_TRK_MRCZ
+78,Mirosław,miasto,300,119,23,181,1765,5,Trockie,LIT_TRK,LIT_TRK_MRSV
+79,Simno,miasto,339,170,24,169,1765,5,Trockie,LIT_TRK,LIT_TRK_SMNO
+80,Łoździeje,miasto,402,210,26,192,1765,5,Trockie,LIT_TRK,LIT_TRK_LZDE
+81,Kalwaria,miasto,1137,1012,26,125,1765,5,Trockie,LIT_TRK,LIT_TRK_KLVA
+82,Lubów,miasto,292,54,26,238,1765,5,Trockie,LIT_TRK,LIT_TRK_LBOV
+83,Grażyszki,miasto,111,8,10,103,1765,5,Trockie,LIT_TRK,LIT_TRK_GRZI

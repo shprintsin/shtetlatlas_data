@@ -1,0 +1,67 @@
+slug: census-1890-galicja
+version: 1.0.0
+status: published
+title:
+  he: "ישובים ואוכלוסייה יהודית וכללית בגליציה (1890)"
+  en: "Galicia Census 1890 – Kingdom of Galicia and Lodomeria"
+excerpt:
+  he: >-
+    מאגר נתונים ושכבה גיאוגראפית המתבסס על מפקד האימפריה האוסטרו-הונגרית בגליציה ולודומריה (1890).
+    כולל נתונים דמוגרפיים, דתיים ואתניים ברמת היישוב הבודד עם שיוך גיאוגרפי עדכני.
+dataset:
+  maturity: Provisional
+  min_year: 1890
+  max_year: 1890
+  resources:
+    - file: dt_galicja_census_1890_V1.csv
+      name: Galicja Census 1890
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  zoom: 7
+  layers:
+    - slug: borders_galicja_districts_1890
+      name:
+        he: "גבולות: נפות מנהליות בגליציה (1890)"
+        en: "Borders: Administrative Districts in Galicia (1890)"
+      file: borders_galicja_districts_1890_V1.geojson
+      style:
+        type: category
+        field: dist
+        palette: Earth
+        default_color: '#606C38'
+        opacity: 0.2
+        weight: 1.5
+        color: '#595959'
+      popup:
+        fields:
+          - name
+          - name_de
+          - name_he
+          - dist_id
+
+    - slug: points_galicja_census_1890
+      name:
+        he: "נקודות: יישובים במפקד גליציה 1890"
+        en: "Points: Settlements in Galicia Census 1890"
+      file: points_galicja_census_1890_V1.geojson
+      style:
+        type: category
+        field: type
+        default_color: '#999999'
+        color_dict:
+          mun: '#264653'
+          estate: '#E76F51'
+      popup:
+        fields:
+          - name
+          - district
+          - court
+          - type
+          - level
+          - total_mun
+          - jews_mun
+          - total_estate
+          - jews_estate
+          - modern_name

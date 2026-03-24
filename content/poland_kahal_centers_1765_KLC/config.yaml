@@ -1,0 +1,63 @@
+slug: poland-kahal-centers-1765-klc
+version: 1.0.0
+status: published
+title:
+  he: "קהלים וגלילות: גבולות הקהל ואוכלוסייה באיחוד הפולני-ליטאי (1765)"
+  en: "Kahals and Districts: Kahal Boundaries and Population in the Polish-Lithuanian Commonwealth (1765)"
+excerpt:
+  he: >-
+    מאגר נתונים ושכבת מפה המציגים את מרכזי הקהילות היהודיות (קהלים) בכתר הפולני
+    על בסיס רשימות KLC למפקד 1765. כולל נתונים מצרפיים ברמת הקהילה עם גבולות גלילות וגיאוקידוד מודרני.
+dataset:
+  maturity: Provisional
+  min_year: 1765
+  max_year: 1765
+  resources:
+    - file: borders_Kahals_centers_1765_Polland_v1_KLC.csv
+      name: Poland Kahal Centers 1765 KLC
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  zoom: 6
+  layers:
+    - slug: borders_kahal_regional_districts_1765
+      name:
+        he: "גבולות: גלילות הקהל (1765)"
+        en: "Borders: Kahal Regional Districts (1765)"
+      file: borders_Kahal_Regional_Districts_1765_v1.4.geojson
+      style:
+        type: category
+        field: galil
+        palette: Vintage
+        default_color: '#8B4513'
+        opacity: 0.2
+        weight: 1.5
+        color: '#595959'
+      popup:
+        fields:
+          - galil
+          - galil_id
+
+    - slug: points_kahals_centers_1765_klc
+      name:
+        he: "נקודות: מרכזי קהלים בכתר הפולני (1765)"
+        en: "Points: Kahal Centers in the Polish Crown (1765)"
+      file: points_Kahals_centers_1765_Polland_v1_KLC.geojson
+      style:
+        type: category
+        field: viv_code
+        palette: Earth
+        default_color: '#606C38'
+      popup:
+        fields:
+          - name
+          - name_he
+          - viv
+          - powiat
+          - galil
+          - jews
+          - addition
+          - addition_type
+          - is_child
+          - modern_name

@@ -1,0 +1,43 @@
+slug: jewish-communities-foundation
+version: 1.0.0
+status: published
+title:
+  he: "פרויקט הקהילות: קהילות יהודיות במזרח אירופה ערב השואה ושנת הקמתן"
+  en: "Community Project: Jewish Communities in Eastern Europe and Their Foundation Years"
+excerpt:
+  he: >-
+    מאגר נתונים ושכבת מפה המציגים קהילות יהודיות במזרח אירופה ערב השואה,
+    כולל שנת ההקמה המשוערת, שיוך גיאוגרפי וגיאוקידוד מודרני.
+dataset:
+  maturity: Provisional
+  min_year: 1200
+  max_year: 1940
+  resources:
+    - file: Foundation_df_V4.0_geocoded.csv
+      name: Jewish Communities Foundation Dataset
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  zoom: 5
+  layers:
+    - slug: points_jewish_communities_foundation
+      name:
+        he: "נקודות: קהילות יהודיות במזרח אירופה"
+        en: "Points: Jewish Communities in Eastern Europe"
+      file: foundation_geocoded.geojson
+      style:
+        type: simple
+        fallback_color: '#3388ff'
+        weight: 1
+      popup:
+        fields:
+          - name
+          - enc_name
+          - prov
+          - dist
+          - area
+          - presence_type
+          - mid_range
+          - upper_bound
+          - lower_bound

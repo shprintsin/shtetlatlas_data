@@ -48,11 +48,8 @@ map:
       file: points_galicja_census_1890_V1.geojson
       style:
         type: category
-        field: type
-        default_color: '#999999'
-        color_dict:
-          mun: '#264653'
-          estate: '#E76F51'
+        field: district
+        palette: Vintage
       popup:
         fields:
           - name

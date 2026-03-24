@@ -1,0 +1,65 @@
+slug: pale-settlements-1897
+version: 2.0.0
+status: published
+title:
+  he: ישובים ואוכלוסייה יהודית בתחום המושב ובאימפריה הרוסית (1897)
+excerpt:
+  he: >-
+    מאגר נתונים ושכבה גיאוגראפית המתמקד בהתיישבות היהודית בתחום המושב. המסד מתבסס על מפקד האימפריה הרוסית ב-1897 וכולל
+    מידע דמוגרפי על גודל האוכלוסייה הכללית והיהודית ביישובים בני 500 תושבים שבהם התגוררו יהודים
+dataset:
+  maturity: Provisional
+  min_year: 1897
+  max_year: 1897
+  resources:
+    - file: data_shtetels_v2.csv
+      name: Pale of Settlement Census Data
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  layers:
+    - slug: borders_pale_1897
+      name:
+        he: 'גבולות: תחום המושב (1897)'
+      file: borders_pale_1897_v1.01.geojson
+      style:
+        type: category
+        default_color: '#3388ff'
+        opacity: 0.2
+        weight: 1.5
+        color: '#595959'
+        field: prov
+        color_dict:
+          Bessarabia: '#8B4513'
+          Chernigov: '#CD853F'
+          Grodno: '#DEB887'
+          Kalisz: '#D2691E'
+          Kherson: '#A0522D'
+          Kielce: '#F4A460'
+          Kiev: '#DAA520'
+          Kovno: '#BC8F8F'
+          Lomza: '#8B4513'
+          Lublin: '#CD853F'
+          Minsk: '#DEB887'
+          Mogilev: '#D2691E'
+          Piotrkow: '#A0522D'
+          Plock: '#F4A460'
+          Podolia: '#DAA520'
+          Poltava: '#BC8F8F'
+          Radom: '#8B4513'
+          Siedlce: '#CD853F'
+          Suwalki: '#DEB887'
+          Taurida: '#D2691E'
+          Vitebsk: '#A0522D'
+          Volhinia: '#F4A460'
+          Warsaw: '#DAA520'
+          Yekaterinoslav: '#BC8F8F'
+    - slug: points_shtetels_v2
+      name:
+        he: 'נקודות: התיישבות יהודית באימפריה הרוסית – תחום המושב 1897'
+      file: points_shtetels_v2.geojson
+      style:
+        type: category
+        field: prov
+        palette: Earth

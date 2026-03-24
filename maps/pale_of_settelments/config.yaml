@@ -21,7 +21,15 @@ map:
       name:
         he: "גבולות: תחום המושב (1897)"
       file: borders_pale_1897_v1.01.geojson
+      style:
+        type: category
+        field: prov
+        palette: Vintage
     - slug: points_shtetels_v2
-      name: 
+      name:
         he: "נקודות: התיישבות יהודית באימפריה הרוסית – תחום המושב 1897"
       file: points_shtetels_v2.geojson
+      style:
+        type: category
+        field: prov
+        palette: Earth

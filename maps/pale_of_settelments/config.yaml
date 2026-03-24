@@ -1,0 +1,27 @@
+slug: pale-settlements-1897
+version: 2.0.0
+status: published
+title:
+  he: "ישובים ואוכלוסייה יהודית בתחום המושב ובאימפריה הרוסית (1897)"
+excerpt: 
+  he: "מאגר נתונים ושכבה גיאוגראפית המתמקד בהתיישבות היהודית בתחום המושב. המסד מתבסס על מפקד האימפריה הרוסית ב-1897 וכולל מידע דמוגרפי על גודל האוכלוסייה הכללית והיהודית ביישובים בני 500 תושבים שבהם התגוררו יהודים"
+dataset:
+  maturity: Provisional
+  min_year: 1897
+  max_year: 1897
+  resources:
+    - file: data_shtetels_v2.csv
+      name: Pale of Settlement Census Data
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  layers:
+    - slug: borders_pale_1897
+      name:
+        he: "גבולות: תחום המושב (1897)"
+      file: borders_pale_1897_v1.01.geojson
+    - slug: points_shtetels_v2
+      name: 
+        he: "נקודות: התיישבות יהודית באימפריה הרוסית – תחום המושב 1897"
+      file: points_shtetels_v2.geojson

@@ -23,6 +23,7 @@ export declare const MinimalDataYamlSchema: z.ZodObject<{
     slug: z.ZodString;
     title: z.ZodString;
     description: z.ZodDefault<z.ZodString>;
+    summary: z.ZodOptional<z.ZodString>;
     maturity: z.ZodDefault<z.ZodEnum<["Raw", "Preliminary", "Provisional", "Validated"]>>;
     version: z.ZodDefault<z.ZodString>;
     license: z.ZodOptional<z.ZodString>;
@@ -66,6 +67,7 @@ export declare const MinimalDataYamlSchema: z.ZodObject<{
     }[];
     category?: string | undefined;
     license?: string | undefined;
+    summary?: string | undefined;
     citationText?: string | undefined;
     minYear?: number | undefined;
     maxYear?: number | undefined;
@@ -77,6 +79,7 @@ export declare const MinimalDataYamlSchema: z.ZodObject<{
     regions?: string[] | undefined;
     maturity?: "Provisional" | "Raw" | "Preliminary" | "Validated" | undefined;
     license?: string | undefined;
+    summary?: string | undefined;
     version?: string | undefined;
     citationText?: string | undefined;
     minYear?: number | undefined;
@@ -126,6 +129,7 @@ export declare const DatasetInputSchema: z.ZodObject<{
     slug: z.ZodString;
     title: z.ZodString;
     description: z.ZodDefault<z.ZodString>;
+    summary: z.ZodOptional<z.ZodString>;
     status: z.ZodDefault<z.ZodEnum<["draft", "published", "archived"]>>;
     maturity: z.ZodDefault<z.ZodEnum<["Raw", "Preliminary", "Provisional", "Validated"]>>;
     version: z.ZodDefault<z.ZodString>;
@@ -197,6 +201,7 @@ export declare const DatasetInputSchema: z.ZodObject<{
     license?: string | null | undefined;
     gitSha?: string | undefined;
     cliVersion?: string | undefined;
+    summary?: string | undefined;
     citationText?: string | null | undefined;
     minYear?: number | null | undefined;
     maxYear?: number | null | undefined;
@@ -215,6 +220,7 @@ export declare const DatasetInputSchema: z.ZodObject<{
     license?: string | null | undefined;
     gitSha?: string | undefined;
     cliVersion?: string | undefined;
+    summary?: string | undefined;
     version?: string | undefined;
     citationText?: string | null | undefined;
     minYear?: number | null | undefined;

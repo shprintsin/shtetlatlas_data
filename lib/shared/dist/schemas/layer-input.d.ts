@@ -3,6 +3,7 @@ export declare const LayerInputSchema: z.ZodObject<{
     name: z.ZodString;
     slug: z.ZodString;
     description: z.ZodDefault<z.ZodString>;
+    summary: z.ZodOptional<z.ZodString>;
     type: z.ZodEnum<["POINTS", "POLYGONS", "POLYLINES", "MULTI_POLYGONS", "RASTER"]>;
     status: z.ZodDefault<z.ZodEnum<["draft", "published", "archived"]>>;
     geoJsonData: z.ZodAny;
@@ -22,6 +23,7 @@ export declare const LayerInputSchema: z.ZodObject<{
     labels?: any;
     popup?: any;
     year?: number | undefined;
+    summary?: string | undefined;
     geoJsonData?: any;
 }, {
     type: "POINTS" | "POLYGONS" | "POLYLINES" | "MULTI_POLYGONS" | "RASTER";
@@ -34,6 +36,7 @@ export declare const LayerInputSchema: z.ZodObject<{
     popup?: any;
     description?: string | undefined;
     year?: number | undefined;
+    summary?: string | undefined;
     geoJsonData?: any;
 }>;
 export type LayerInput = z.infer<typeof LayerInputSchema>;

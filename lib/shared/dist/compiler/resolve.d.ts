@@ -12,8 +12,24 @@ export declare const MinimalLabelSchema: z.ZodObject<{
     fontColor: z.ZodOptional<z.ZodString>;
     fontFamily: z.ZodOptional<z.ZodString>;
     fontWeight: z.ZodOptional<z.ZodEnum<["normal", "bold", "400", "500", "600", "700"]>>;
+    collision: z.ZodOptional<z.ZodEnum<["none", "hide"]>>;
+    priority_field: z.ZodOptional<z.ZodString>;
+    filter: z.ZodOptional<z.ZodObject<{
+        field: z.ZodString;
+        value: z.ZodUnion<[z.ZodString, z.ZodNumber, z.ZodBoolean]>;
+    }, "strip", z.ZodTypeAny, {
+        value: string | number | boolean;
+        field: string;
+    }, {
+        value: string | number | boolean;
+        field: string;
+    }>>;
 }, "strip", z.ZodTypeAny, {
     field: string;
+    filter?: {
+        value: string | number | boolean;
+        field: string;
+    } | undefined;
     className?: string | undefined;
     position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
     include_list?: string[] | undefined;
@@ -22,8 +38,14 @@ export declare const MinimalLabelSchema: z.ZodObject<{
     fontColor?: string | undefined;
     fontFamily?: string | undefined;
     fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+    collision?: "none" | "hide" | undefined;
+    priority_field?: string | undefined;
 }, {
     field: string;
+    filter?: {
+        value: string | number | boolean;
+        field: string;
+    } | undefined;
     className?: string | undefined;
     position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
     include_list?: string[] | undefined;
@@ -32,6 +54,8 @@ export declare const MinimalLabelSchema: z.ZodObject<{
     fontColor?: string | undefined;
     fontFamily?: string | undefined;
     fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+    collision?: "none" | "hide" | undefined;
+    priority_field?: string | undefined;
 }>;
 /** Minimal popup config — presence implies show: true */
 export declare const MinimalPopupSchema: z.ZodObject<{
@@ -55,12 +79,12 @@ export declare const MinimalHoverSchema: z.ZodObject<{
         weight: z.ZodOptional<z.ZodNumber>;
         color: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
-        weight?: number | undefined;
         color?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
     }, {
-        weight?: number | undefined;
         color?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
     }>>;
     fields: z.ZodOptional<z.ZodArray<z.ZodString, "many">>;
@@ -70,8 +94,8 @@ export declare const MinimalHoverSchema: z.ZodObject<{
     fields?: string[] | undefined;
     display?: "floating" | "sidebar" | undefined;
     style?: {
-        weight?: number | undefined;
         color?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
     } | undefined;
 }, {
@@ -79,8 +103,8 @@ export declare const MinimalHoverSchema: z.ZodObject<{
     fields?: string[] | undefined;
     display?: "floating" | "sidebar" | undefined;
     style?: {
-        weight?: number | undefined;
         color?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
     } | undefined;
 }>;
@@ -90,6 +114,8 @@ export declare const MinimalStyleSchema: z.ZodObject<{
     field: z.ZodOptional<z.ZodString>;
     palette: z.ZodOptional<z.ZodString>;
     color_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    stroke_color_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+    stroke_weight_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodNumber>>;
     graduated: z.ZodOptional<z.ZodObject<{
         field: z.ZodString;
         method: z.ZodOptional<z.ZodEnum<["equal_interval", "quantile", "custom"]>>;
@@ -124,6 +150,53 @@ export declare const MinimalStyleSchema: z.ZodObject<{
         } | undefined;
         breaks?: number[] | undefined;
     }>>;
+    graduated_radius: z.ZodOptional<z.ZodObject<{
+        field: z.ZodString;
+        method: z.ZodOptional<z.ZodEnum<["sqrt", "log", "linear", "stepped"]>>;
+        min_radius: z.ZodOptional<z.ZodNumber>;
+        max_radius: z.ZodOptional<z.ZodNumber>;
+        default_radius: z.ZodOptional<z.ZodNumber>;
+        breaks: z.ZodOptional<z.ZodArray<z.ZodNumber, "many">>;
+        sizes: z.ZodOptional<z.ZodArray<z.ZodNumber, "many">>;
+    }, "strip", z.ZodTypeAny, {
+        field: string;
+        method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+        breaks?: number[] | undefined;
+        sizes?: number[] | undefined;
+        min_radius?: number | undefined;
+        max_radius?: number | undefined;
+        default_radius?: number | undefined;
+    }, {
+        field: string;
+        method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+        breaks?: number[] | undefined;
+        sizes?: number[] | undefined;
+        min_radius?: number | undefined;
+        max_radius?: number | undefined;
+        default_radius?: number | undefined;
+    }>>;
+    highlight: z.ZodOptional<z.ZodObject<{
+        field: z.ZodString;
+        value: z.ZodUnion<[z.ZodString, z.ZodNumber, z.ZodBoolean]>;
+        color: z.ZodOptional<z.ZodString>;
+        weight: z.ZodOptional<z.ZodNumber>;
+        radius_boost: z.ZodOptional<z.ZodNumber>;
+        fill_opacity: z.ZodOptional<z.ZodNumber>;
+    }, "strip", z.ZodTypeAny, {
+        value: string | number | boolean;
+        field: string;
+        color?: string | undefined;
+        weight?: number | undefined;
+        radius_boost?: number | undefined;
+        fill_opacity?: number | undefined;
+    }, {
+        value: string | number | boolean;
+        field: string;
+        color?: string | undefined;
+        weight?: number | undefined;
+        radius_boost?: number | undefined;
+        fill_opacity?: number | undefined;
+    }>>;
     radius: z.ZodOptional<z.ZodNumber>;
     fillColor: z.ZodOptional<z.ZodString>;
     color: z.ZodOptional<z.ZodString>;
@@ -131,6 +204,8 @@ export declare const MinimalStyleSchema: z.ZodObject<{
     fillOpacity: z.ZodOptional<z.ZodNumber>;
     opacity: z.ZodOptional<z.ZodNumber>;
     default_color: z.ZodOptional<z.ZodString>;
+    /** Alias for default_color — used in unified config.yaml */
+    fallback_color: z.ZodOptional<z.ZodString>;
 }, "strip", z.ZodTypeAny, {
     type?: "simple" | "category" | "graduated" | undefined;
     graduated?: {
@@ -144,15 +219,35 @@ export declare const MinimalStyleSchema: z.ZodObject<{
         breaks?: number[] | undefined;
     } | undefined;
     field?: string | undefined;
-    color_dict?: Record<string, string> | undefined;
-    default_color?: string | undefined;
-    opacity?: number | undefined;
-    weight?: number | undefined;
     color?: string | undefined;
-    radius?: number | undefined;
-    fillColor?: string | undefined;
+    weight?: number | undefined;
     fillOpacity?: number | undefined;
     palette?: string | undefined;
+    color_dict?: Record<string, string> | undefined;
+    stroke_color_dict?: Record<string, string> | undefined;
+    stroke_weight_dict?: Record<string, number> | undefined;
+    default_color?: string | undefined;
+    opacity?: number | undefined;
+    highlight?: {
+        value: string | number | boolean;
+        field: string;
+        color?: string | undefined;
+        weight?: number | undefined;
+        radius_boost?: number | undefined;
+        fill_opacity?: number | undefined;
+    } | undefined;
+    radius?: number | undefined;
+    fillColor?: string | undefined;
+    graduated_radius?: {
+        field: string;
+        method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+        breaks?: number[] | undefined;
+        sizes?: number[] | undefined;
+        min_radius?: number | undefined;
+        max_radius?: number | undefined;
+        default_radius?: number | undefined;
+    } | undefined;
+    fallback_color?: string | undefined;
 }, {
     type?: "simple" | "category" | "graduated" | undefined;
     graduated?: {
@@ -166,15 +261,35 @@ export declare const MinimalStyleSchema: z.ZodObject<{
         breaks?: number[] | undefined;
     } | undefined;
     field?: string | undefined;
-    color_dict?: Record<string, string> | undefined;
-    default_color?: string | undefined;
-    opacity?: number | undefined;
-    weight?: number | undefined;
     color?: string | undefined;
-    radius?: number | undefined;
-    fillColor?: string | undefined;
+    weight?: number | undefined;
     fillOpacity?: number | undefined;
     palette?: string | undefined;
+    color_dict?: Record<string, string> | undefined;
+    stroke_color_dict?: Record<string, string> | undefined;
+    stroke_weight_dict?: Record<string, number> | undefined;
+    default_color?: string | undefined;
+    opacity?: number | undefined;
+    highlight?: {
+        value: string | number | boolean;
+        field: string;
+        color?: string | undefined;
+        weight?: number | undefined;
+        radius_boost?: number | undefined;
+        fill_opacity?: number | undefined;
+    } | undefined;
+    radius?: number | undefined;
+    fillColor?: string | undefined;
+    graduated_radius?: {
+        field: string;
+        method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+        breaks?: number[] | undefined;
+        sizes?: number[] | undefined;
+        min_radius?: number | undefined;
+        max_radius?: number | undefined;
+        default_radius?: number | undefined;
+    } | undefined;
+    fallback_color?: string | undefined;
 }>;
 /** Minimal filter */
 export declare const MinimalFilterSchema: z.ZodObject<{
@@ -220,6 +335,7 @@ export type ColumnsConfig = z.infer<typeof ColumnsConfigSchema>;
 /** What the user writes in layers/{slug}.yaml */
 export declare const MinimalLayerYamlSchema: z.ZodObject<{
     description: z.ZodOptional<z.ZodString>;
+    summary: z.ZodOptional<z.ZodString>;
     visible: z.ZodOptional<z.ZodBoolean>;
     zIndex: z.ZodOptional<z.ZodNumber>;
     style: z.ZodOptional<z.ZodObject<{
@@ -227,6 +343,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         field: z.ZodOptional<z.ZodString>;
         palette: z.ZodOptional<z.ZodString>;
         color_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+        stroke_color_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodString>>;
+        stroke_weight_dict: z.ZodOptional<z.ZodRecord<z.ZodString, z.ZodNumber>>;
         graduated: z.ZodOptional<z.ZodObject<{
             field: z.ZodString;
             method: z.ZodOptional<z.ZodEnum<["equal_interval", "quantile", "custom"]>>;
@@ -261,6 +379,53 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             } | undefined;
             breaks?: number[] | undefined;
         }>>;
+        graduated_radius: z.ZodOptional<z.ZodObject<{
+            field: z.ZodString;
+            method: z.ZodOptional<z.ZodEnum<["sqrt", "log", "linear", "stepped"]>>;
+            min_radius: z.ZodOptional<z.ZodNumber>;
+            max_radius: z.ZodOptional<z.ZodNumber>;
+            default_radius: z.ZodOptional<z.ZodNumber>;
+            breaks: z.ZodOptional<z.ZodArray<z.ZodNumber, "many">>;
+            sizes: z.ZodOptional<z.ZodArray<z.ZodNumber, "many">>;
+        }, "strip", z.ZodTypeAny, {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        }, {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        }>>;
+        highlight: z.ZodOptional<z.ZodObject<{
+            field: z.ZodString;
+            value: z.ZodUnion<[z.ZodString, z.ZodNumber, z.ZodBoolean]>;
+            color: z.ZodOptional<z.ZodString>;
+            weight: z.ZodOptional<z.ZodNumber>;
+            radius_boost: z.ZodOptional<z.ZodNumber>;
+            fill_opacity: z.ZodOptional<z.ZodNumber>;
+        }, "strip", z.ZodTypeAny, {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        }, {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        }>>;
         radius: z.ZodOptional<z.ZodNumber>;
         fillColor: z.ZodOptional<z.ZodString>;
         color: z.ZodOptional<z.ZodString>;
@@ -268,6 +433,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fillOpacity: z.ZodOptional<z.ZodNumber>;
         opacity: z.ZodOptional<z.ZodNumber>;
         default_color: z.ZodOptional<z.ZodString>;
+        /** Alias for default_color — used in unified config.yaml */
+        fallback_color: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
         type?: "simple" | "category" | "graduated" | undefined;
         graduated?: {
@@ -281,15 +448,35 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             breaks?: number[] | undefined;
         } | undefined;
         field?: string | undefined;
-        color_dict?: Record<string, string> | undefined;
-        default_color?: string | undefined;
-        opacity?: number | undefined;
-        weight?: number | undefined;
         color?: string | undefined;
-        radius?: number | undefined;
-        fillColor?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
         palette?: string | undefined;
+        color_dict?: Record<string, string> | undefined;
+        stroke_color_dict?: Record<string, string> | undefined;
+        stroke_weight_dict?: Record<string, number> | undefined;
+        default_color?: string | undefined;
+        opacity?: number | undefined;
+        highlight?: {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        } | undefined;
+        radius?: number | undefined;
+        fillColor?: string | undefined;
+        graduated_radius?: {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        } | undefined;
+        fallback_color?: string | undefined;
     }, {
         type?: "simple" | "category" | "graduated" | undefined;
         graduated?: {
@@ -303,15 +490,35 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             breaks?: number[] | undefined;
         } | undefined;
         field?: string | undefined;
-        color_dict?: Record<string, string> | undefined;
-        default_color?: string | undefined;
-        opacity?: number | undefined;
-        weight?: number | undefined;
         color?: string | undefined;
-        radius?: number | undefined;
-        fillColor?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
         palette?: string | undefined;
+        color_dict?: Record<string, string> | undefined;
+        stroke_color_dict?: Record<string, string> | undefined;
+        stroke_weight_dict?: Record<string, number> | undefined;
+        default_color?: string | undefined;
+        opacity?: number | undefined;
+        highlight?: {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        } | undefined;
+        radius?: number | undefined;
+        fillColor?: string | undefined;
+        graduated_radius?: {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        } | undefined;
+        fallback_color?: string | undefined;
     }>>;
     labels: z.ZodOptional<z.ZodObject<{
         field: z.ZodString;
@@ -323,8 +530,24 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fontColor: z.ZodOptional<z.ZodString>;
         fontFamily: z.ZodOptional<z.ZodString>;
         fontWeight: z.ZodOptional<z.ZodEnum<["normal", "bold", "400", "500", "600", "700"]>>;
+        collision: z.ZodOptional<z.ZodEnum<["none", "hide"]>>;
+        priority_field: z.ZodOptional<z.ZodString>;
+        filter: z.ZodOptional<z.ZodObject<{
+            field: z.ZodString;
+            value: z.ZodUnion<[z.ZodString, z.ZodNumber, z.ZodBoolean]>;
+        }, "strip", z.ZodTypeAny, {
+            value: string | number | boolean;
+            field: string;
+        }, {
+            value: string | number | boolean;
+            field: string;
+        }>>;
     }, "strip", z.ZodTypeAny, {
         field: string;
+        filter?: {
+            value: string | number | boolean;
+            field: string;
+        } | undefined;
         className?: string | undefined;
         position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
         include_list?: string[] | undefined;
@@ -333,8 +556,14 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fontColor?: string | undefined;
         fontFamily?: string | undefined;
         fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+        collision?: "none" | "hide" | undefined;
+        priority_field?: string | undefined;
     }, {
         field: string;
+        filter?: {
+            value: string | number | boolean;
+            field: string;
+        } | undefined;
         className?: string | undefined;
         position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
         include_list?: string[] | undefined;
@@ -343,6 +572,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fontColor?: string | undefined;
         fontFamily?: string | undefined;
         fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+        collision?: "none" | "hide" | undefined;
+        priority_field?: string | undefined;
     }>>;
     popup: z.ZodOptional<z.ZodObject<{
         type: z.ZodOptional<z.ZodEnum<["list", "template"]>>;
@@ -364,12 +595,12 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             weight: z.ZodOptional<z.ZodNumber>;
             color: z.ZodOptional<z.ZodString>;
         }, "strip", z.ZodTypeAny, {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         }, {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         }>>;
         fields: z.ZodOptional<z.ZodArray<z.ZodString, "many">>;
@@ -379,8 +610,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fields?: string[] | undefined;
         display?: "floating" | "sidebar" | undefined;
         style?: {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         } | undefined;
     }, {
@@ -388,8 +619,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fields?: string[] | undefined;
         display?: "floating" | "sidebar" | undefined;
         style?: {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         } | undefined;
     }>>;
@@ -452,20 +683,44 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             breaks?: number[] | undefined;
         } | undefined;
         field?: string | undefined;
-        color_dict?: Record<string, string> | undefined;
-        default_color?: string | undefined;
-        opacity?: number | undefined;
-        weight?: number | undefined;
         color?: string | undefined;
-        radius?: number | undefined;
-        fillColor?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
         palette?: string | undefined;
+        color_dict?: Record<string, string> | undefined;
+        stroke_color_dict?: Record<string, string> | undefined;
+        stroke_weight_dict?: Record<string, number> | undefined;
+        default_color?: string | undefined;
+        opacity?: number | undefined;
+        highlight?: {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        } | undefined;
+        radius?: number | undefined;
+        fillColor?: string | undefined;
+        graduated_radius?: {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        } | undefined;
+        fallback_color?: string | undefined;
     } | undefined;
     visible?: boolean | undefined;
     zIndex?: number | undefined;
     labels?: {
         field: string;
+        filter?: {
+            value: string | number | boolean;
+            field: string;
+        } | undefined;
         className?: string | undefined;
         position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
         include_list?: string[] | undefined;
@@ -474,6 +729,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fontColor?: string | undefined;
         fontFamily?: string | undefined;
         fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+        collision?: "none" | "hide" | undefined;
+        priority_field?: string | undefined;
     } | undefined;
     popup?: {
         type?: "list" | "template" | undefined;
@@ -485,8 +742,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fields?: string[] | undefined;
         display?: "floating" | "sidebar" | undefined;
         style?: {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         } | undefined;
     } | undefined;
@@ -498,6 +755,7 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         csv: string;
         lon: string;
     } | undefined;
+    summary?: string | undefined;
     columns?: {
         csv?: string[] | undefined;
         geojson?: string[] | undefined;
@@ -522,20 +780,44 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
             breaks?: number[] | undefined;
         } | undefined;
         field?: string | undefined;
-        color_dict?: Record<string, string> | undefined;
-        default_color?: string | undefined;
-        opacity?: number | undefined;
-        weight?: number | undefined;
         color?: string | undefined;
-        radius?: number | undefined;
-        fillColor?: string | undefined;
+        weight?: number | undefined;
         fillOpacity?: number | undefined;
         palette?: string | undefined;
+        color_dict?: Record<string, string> | undefined;
+        stroke_color_dict?: Record<string, string> | undefined;
+        stroke_weight_dict?: Record<string, number> | undefined;
+        default_color?: string | undefined;
+        opacity?: number | undefined;
+        highlight?: {
+            value: string | number | boolean;
+            field: string;
+            color?: string | undefined;
+            weight?: number | undefined;
+            radius_boost?: number | undefined;
+            fill_opacity?: number | undefined;
+        } | undefined;
+        radius?: number | undefined;
+        fillColor?: string | undefined;
+        graduated_radius?: {
+            field: string;
+            method?: "sqrt" | "log" | "linear" | "stepped" | undefined;
+            breaks?: number[] | undefined;
+            sizes?: number[] | undefined;
+            min_radius?: number | undefined;
+            max_radius?: number | undefined;
+            default_radius?: number | undefined;
+        } | undefined;
+        fallback_color?: string | undefined;
     } | undefined;
     visible?: boolean | undefined;
     zIndex?: number | undefined;
     labels?: {
         field: string;
+        filter?: {
+            value: string | number | boolean;
+            field: string;
+        } | undefined;
         className?: string | undefined;
         position?: "center" | "top" | "bottom" | "left" | "right" | undefined;
         include_list?: string[] | undefined;
@@ -544,6 +826,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fontColor?: string | undefined;
         fontFamily?: string | undefined;
         fontWeight?: "normal" | "bold" | "400" | "500" | "600" | "700" | undefined;
+        collision?: "none" | "hide" | undefined;
+        priority_field?: string | undefined;
     } | undefined;
     popup?: {
         type?: "list" | "template" | undefined;
@@ -555,8 +839,8 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         fields?: string[] | undefined;
         display?: "floating" | "sidebar" | undefined;
         style?: {
-            weight?: number | undefined;
             color?: string | undefined;
+            weight?: number | undefined;
             fillOpacity?: number | undefined;
         } | undefined;
     } | undefined;
@@ -568,6 +852,7 @@ export declare const MinimalLayerYamlSchema: z.ZodObject<{
         csv: string;
         lon: string;
     } | undefined;
+    summary?: string | undefined;
     columns?: {
         csv?: string[] | undefined;
         geojson?: string[] | undefined;
@@ -579,7 +864,8 @@ export declare const MinimalMapYamlSchema: z.ZodObject<{
     slug: z.ZodString;
     title: z.ZodString;
     description: z.ZodOptional<z.ZodString>;
-    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+    summary: z.ZodOptional<z.ZodString>;
+    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
     center: z.ZodOptional<z.ZodTuple<[z.ZodNumber, z.ZodNumber], null>>;
     zoom: z.ZodOptional<z.ZodNumber>;
     layers: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
@@ -647,20 +933,21 @@ export declare const MinimalMapYamlSchema: z.ZodObject<{
     apiUrl: z.ZodOptional<z.ZodString>;
     apiKey: z.ZodOptional<z.ZodString>;
     defaults: z.ZodOptional<z.ZodObject<{
-        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
         palette: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }>>;
 }, "passthrough", z.ZodTypeAny, z.objectOutputType<{
     slug: z.ZodString;
     title: z.ZodString;
     description: z.ZodOptional<z.ZodString>;
-    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+    summary: z.ZodOptional<z.ZodString>;
+    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
     center: z.ZodOptional<z.ZodTuple<[z.ZodNumber, z.ZodNumber], null>>;
     zoom: z.ZodOptional<z.ZodNumber>;
     layers: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
@@ -728,20 +1015,21 @@ export declare const MinimalMapYamlSchema: z.ZodObject<{
     apiUrl: z.ZodOptional<z.ZodString>;
     apiKey: z.ZodOptional<z.ZodString>;
     defaults: z.ZodOptional<z.ZodObject<{
-        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
         palette: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }>>;
 }, z.ZodTypeAny, "passthrough">, z.objectInputType<{
     slug: z.ZodString;
     title: z.ZodString;
     description: z.ZodOptional<z.ZodString>;
-    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+    summary: z.ZodOptional<z.ZodString>;
+    basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
     center: z.ZodOptional<z.ZodTuple<[z.ZodNumber, z.ZodNumber], null>>;
     zoom: z.ZodOptional<z.ZodNumber>;
     layers: z.ZodDefault<z.ZodArray<z.ZodString, "many">>;
@@ -809,14 +1097,14 @@ export declare const MinimalMapYamlSchema: z.ZodObject<{
     apiUrl: z.ZodOptional<z.ZodString>;
     apiKey: z.ZodOptional<z.ZodString>;
     defaults: z.ZodOptional<z.ZodObject<{
-        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner"]>>;
+        basemap: z.ZodOptional<z.ZodEnum<["carto-light", "carto-dark", "carto-voyager", "osm", "satellite", "stamen-toner", "carto-positron", "carto-dark-matter", "carto-voyager-gl", "osm-liberty", "osm-bright", "osm-positron"]>>;
         palette: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }, {
-        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | undefined;
         palette?: string | undefined;
+        basemap?: "carto-light" | "carto-dark" | "carto-voyager" | "osm" | "satellite" | "stamen-toner" | "carto-positron" | "carto-dark-matter" | "carto-voyager-gl" | "osm-liberty" | "osm-bright" | "osm-positron" | undefined;
     }>>;
 }, z.ZodTypeAny, "passthrough">>;
 export type MinimalMapYaml = z.infer<typeof MinimalMapYamlSchema>;

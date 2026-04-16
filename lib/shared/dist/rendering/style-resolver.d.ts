@@ -1,4 +1,4 @@
-import type { PolygonStyleConfig, PointStyleConfig, GraduatedStyleConfig } from '../schemas/map-config.js';
+import type { PolygonStyleConfig, PointStyleConfig, GraduatedStyleConfig, HighlightConfig } from '../schemas/map-config.js';
 /**
  * Deterministic hash-based color from a string.
  */
@@ -24,6 +24,18 @@ export declare function getBinIndex(value: number, breaks: number[]): number;
  */
 export declare function getGraduatedColor(value: number, config: GraduatedStyleConfig): string;
 /**
+ * Resolve radius for a point feature based on graduated radius config.
+ * Returns the static radius if no graduated radius is configured.
+ */
+export declare function resolveFeatureRadius(properties: Record<string, unknown>, style: PointStyleConfig, dataRange?: {
+    min: number;
+    max: number;
+}): number;
+/**
+ * Check if a feature matches a highlight condition.
+ */
+export declare function matchesHighlight(properties: Record<string, unknown>, highlight?: HighlightConfig): boolean;
+/**
  * Resolve fill color for a polygon feature based on style config.
  */
 export declare function getStyle(feature: {
@@ -31,5 +43,8 @@ export declare function getStyle(feature: {
 }, layerConfig: {
     type: string;
     style: PolygonStyleConfig | PointStyleConfig;
+}, dataRange?: {
+    min: number;
+    max: number;
 }): Record<string, unknown>;
 //# sourceMappingURL=style-resolver.d.ts.map

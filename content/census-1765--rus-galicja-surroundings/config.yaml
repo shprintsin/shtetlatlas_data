@@ -1,0 +1,117 @@
+slug: poland-kahals-surroundings-1765
+version: 1.0.0
+status: published
+title:
+  he: "קהלים וסביבות: קהלים וכפרים באיזורים הרותניים - 1765"
+  en: "Kahals and Surroundings: Kahals and Villages in the Ruthenian Regions (1765)"
+excerpt:
+  he: >-
+    מאגר נתונים ושכבת מפה המציגים את הקהלים וכפריהם באזורים הרותניים של האיחוד הפולני-ליטאי.
+    כולל גבולות קהלים, נקודות יישוב ונתוני אוכלוסייה יהודית ממפקד 1765.
+dataset:
+  maturity: Provisional
+  min_year: 1765
+  max_year: 1765
+  resources:
+    - file: Kahal_surroundings_1765_V1.csv
+      name: Kahal Surroundings 1765
+      format: CSV
+      is_main_file: true
+map:
+  basemap: carto-light
+  zoom: 6
+  layers:
+    - slug: borders_kahal_surroundings_rus_1765
+      name:
+        he: "גבולות: קהלים באיזורים הרותניים (1765)"
+        en: "Borders: Kahals in the Ruthenian Regions (1765)"
+      file: borders_kahal_surroundings_rus_1765.geojson
+      labels:
+        field: kahal
+        position: top
+        fontSize: 11
+        fontColor: '#1A1A2E'
+        fontWeight: '600'
+        collision: hide
+        priority_field: pop        
+      style:
+        type: category
+        field: viv
+        color_dict:
+          Rus: '#C8D5B9'
+          Podolia: '#D4C5A9'
+          Kijow: '#B8CCD8'
+          Wolyn: '#D5BFD0'
+          Bracław: '#DBBFA0'
+        stroke_color_dict:
+          Rus: '#8FA07A'
+          Podolia: '#B0A07A'
+          Kijow: '#7A9DB8'
+          Wolyn: '#A88CA0'
+          Bracław: '#C09A6E'
+        default_color: '#CCCCCC'
+        opacity: 0.25
+        weight: 1.5
+        color: '#8A8A8A'
+      hover:
+        display: floating
+        style:
+          fillOpacity: 0.5
+          weight: 3
+          color: '#1A1A2E'
+        fields:
+          - kahal
+          - jewish_pop
+          - places
+          - viv
+      popup:
+        fields:
+          - kahal
+          - galil
+          - viv
+          - pow
+          - jewish_pop
+          - rural
+          - urban
+          - total
+          - places
+
+    - slug: points_kahal_surroundings_rus_1765
+      name:
+        he: "נקודות: יישובים באיזורים הרותניים (1765)"
+        en: "Points: Settlements in the Ruthenian Regions (1765)"
+      file: points_borders_kahal_surroundings_rus_1765.geojson
+      style:
+        type: category
+        field: settlement_type
+        color_dict:
+          city: '#2D3A4A'
+          town: '#4A6741'
+          village: '#6B4C3B'
+        default_color: '#888888'
+        color: '#FFFFFF'
+        weight: 0.3
+        fillOpacity: 0.85
+        graduated_radius:
+          field: pop
+          method: sqrt
+          min_radius: 1
+          max_radius: 16
+        highlight:
+          field: is_center
+          value: true
+          color: '#1A1A2E'
+          weight: 1.5
+          radius_boost: 2
+          fill_opacity: 0.95
+      popup:
+        fields:
+          - name
+          - name_he
+          - kahal
+          - galil
+          - settlement_type
+          - pop
+          - viv
+          - pow
+          

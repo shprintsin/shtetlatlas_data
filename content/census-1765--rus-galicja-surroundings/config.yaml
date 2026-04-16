@@ -2,12 +2,14 @@ slug: poland-kahals-surroundings-1765
 version: 1.0.0
 status: published
 title:
-  he: "קהלים וסביבות: קהלים וכפרים באיזורים הרותניים - 1765"
-  en: "Kahals and Surroundings: Kahals and Villages in the Ruthenian Regions (1765)"
+  he: "קהלים וסביבות: התיישבות עירונית וכפרית בדרום-מזרח פולין (אוקראינה) - 1765"
+  en: "Kahals and Surroundings: Urban and Rural Settlement in Southeastern Poland (Ukraine) - 1765"
 excerpt:
   he: >-
-    מאגר נתונים ושכבת מפה המציגים את הקהלים וכפריהם באזורים הרותניים של האיחוד הפולני-ליטאי.
+    מאגר נתונים ושכבה גיאוגראפית המציגים את הקהלים וכפריהם באזורים הרותניים של האיחוד הפולני-ליטאי.
     כולל גבולות קהלים, נקודות יישוב ונתוני אוכלוסייה יהודית ממפקד 1765.
+  en: >-
+    A dataset and map layer presenting the Kahals and their villages in the Ruthenian regions of the Polish-Lithuanian Commonwealth. Includes Kahal boundaries, settlement points, and Jewish population data from the 1765 census.
 dataset:
   maturity: Provisional
   min_year: 1765
@@ -20,11 +22,12 @@ dataset:
 map:
   basemap: carto-light
   zoom: 6
+  center: [49.7800, 26.5809]
   layers:
     - slug: borders_kahal_surroundings_rus_1765
       name:
-        he: "גבולות: קהלים באיזורים הרותניים (1765)"
-        en: "Borders: Kahals in the Ruthenian Regions (1765)"
+        he: "גבולות:  מחוזות הקהל בדרום-מזרח פולין (1765)"
+        en: "Borders: Kahal Districts in Southeastern Poland (1765)"
       file: borders_kahal_surroundings_rus_1765.geojson
       labels:
         field: kahal
@@ -78,8 +81,8 @@ map:
 
     - slug: points_kahal_surroundings_rus_1765
       name:
-        he: "נקודות: יישובים באיזורים הרותניים (1765)"
-        en: "Points: Settlements in the Ruthenian Regions (1765)"
+        he: "נקודות: התיישבות עירונית וכפרית בדרום-מזרח פולין (1765)"
+        en: "Points: Urban and Rural Settlements in Southeastern Poland (1765)"
       file: points_borders_kahal_surroundings_rus_1765.geojson
       style:
         type: category
@@ -94,10 +97,10 @@ map:
         fillOpacity: 0.85
         graduated_radius:
           field: pop
-          method: log
-          min_radius: 2
-          max_radius: 16
-          default_radius: 2
+          method: stepped
+          breaks: [100, 1000]
+          sizes: [3, 6, 10]
+          default_radius: 3
         highlight:
           field: is_center
           value: true

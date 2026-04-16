@@ -50,6 +50,12 @@ map:
         type: category
         field: district
         palette: Vintage
+        graduated_radius:
+          field: total_mun
+          method: stepped
+          breaks: [100, 1000]
+          sizes: [3, 6, 10]
+          default_radius: 3
       popup:
         fields:
           - name

@@ -94,9 +94,10 @@ map:
         fillOpacity: 0.85
         graduated_radius:
           field: pop
-          method: sqrt
-          min_radius: 1
+          method: log
+          min_radius: 2
           max_radius: 16
+          default_radius: 2
         highlight:
           field: is_center
           value: true

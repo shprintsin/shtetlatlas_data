@@ -25,14 +25,13 @@ map:
       name:
         he: "גבולות: נפות מנהליות בגליציה (1890)"
         en: "Borders: Administrative Districts in Galicia (1890)"
-      file: borders_galicja_districts_1890_V2.geojson
+      file: borders_galicja_districts_1890_V3.geojson
       labels:
-        field: dist
+        field: district
         position: top
         fontSize: 11
         fontColor: '#1A1A2E'
         fontWeight: '600'
-        
       style:
         type: simple
         default_color: '#606C38'
@@ -46,17 +45,19 @@ map:
           weight: 3
           color: '#1A1A2E'
         fields:
-          - dist        
-      popup:
-        fields:
-          - dist
-          - dist_id
+          - district
+          - name_he
+          - name_pl
+          - pop
+          - jews
+          - share
+          
 
     - slug: points_galicja_census_1890
       name:
         he: "נקודות: יישובים במפקד גליציה 1890"
         en: "Points: Settlements in Galicia Census 1890"
-      file: points_galicja_census_1890_V2.geojson
+      file: points_galicja_census_1890_V4.geojson
       style:
         type: category
         field: district
@@ -83,3 +84,11 @@ map:
           - pop
           - jews
           - share
+  behaviors:
+    controls:
+      - type: attribute-filter
+        layer: points_galicja_census_1890
+        field: has_jews
+        label:
+          he: "הצג רק יישובים עם יהודים"
+          en: "Show only settlements with Jews"

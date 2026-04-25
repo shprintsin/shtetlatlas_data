@@ -2,7 +2,7 @@ slug: galicja-1890-census
 version: 1.0.0
 status: published
 title:
-  he: "ישובים ואוכלוסייה יהודית וכללית בגליציה (1890)"
+  he: "ישובים ואוכלוסייה יהודית וכללית בממלכת גליציה ולודומריה (1890)"
   en: "Galicia Census 1890 – Kingdom of Galicia and Lodomeria"
 excerpt:
   he: >-
@@ -19,52 +19,67 @@ dataset:
       is_main_file: true
 map:
   basemap: carto-light
-  zoom: 7
+  zoom: 6
   layers:
     - slug: borders_galicja_districts_1890
       name:
         he: "גבולות: נפות מנהליות בגליציה (1890)"
         en: "Borders: Administrative Districts in Galicia (1890)"
-      file: borders_galicja_districts_1890_V1.geojson
-      style:
-        type: category
+      file: borders_galicja_districts_1890_V2.geojson
+      labels:
         field: dist
-        palette: Earth
+        position: top
+        fontSize: 11
+        fontColor: '#1A1A2E'
+        fontWeight: '600'
+        
+      style:
+        type: simple
         default_color: '#606C38'
         opacity: 0.2
-        weight: 1.5
+        weight: 1
         color: '#595959'
+      hover:
+        display: floating
+        style:
+          fillOpacity: 0.5
+          weight: 3
+          color: '#1A1A2E'
+        fields:
+          - dist        
       popup:
         fields:
-          - name
-          - name_de
-          - name_he
+          - dist
           - dist_id
 
     - slug: points_galicja_census_1890
       name:
         he: "נקודות: יישובים במפקד גליציה 1890"
         en: "Points: Settlements in Galicia Census 1890"
-      file: points_galicja_census_1890_V1.geojson
+      file: points_galicja_census_1890_V2.geojson
       style:
         type: category
         field: district
         palette: Vintage
+        weight: 0.3
+        fillOpacity: 0.65
+        # graduated_radius:
+        #   field: jews
+        #   method: stepped
+        #   breaks: [100, 500,1000]
+        #   sizes: [3, 6, 8]
+        #   default_radius: 3
         graduated_radius:
-          field: total_mun
-          method: stepped
-          breaks: [100, 1000]
-          sizes: [3, 6, 10]
-          default_radius: 3
+          field: jews
+          method: sqrt
+          min_radius: 2
+          max_radius: 14
+          default_radius: 2        
       popup:
         fields:
           - name
           - district
           - court
-          - type
-          - level
-          - total_mun
-          - jews_mun
-          - total_estate
-          - jews_estate
-          - modern_name
+          - pop
+          - jews
+          - share

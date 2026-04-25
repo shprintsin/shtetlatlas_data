@@ -89,11 +89,11 @@ map:
           - pop
           - jews
           - share
-      behaviors:
-        controls:
-          - type: attribute-filter
-            layer: points_galicja_census_1890
-            field: has_jews
-            label:
-              he: "הצג רק יישובים עם יהודים"
-              en: "Show only settlements with Jews"
+  behaviors:
+    controls:
+      - type: attribute-filter
+        layer: points_galicja_census_1890
+        field: has_jews
+        label:
+          he: "יהודים בלבד"
+          en: "Jewish Settlements Only"
